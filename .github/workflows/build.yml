@@ -1,8 +1,5 @@
 name: Compilar ROM Store
 
-# Arquivo unico: contem o codigo do app e compila o romstore.nro sozinho.
-# O catalogo (catalogo.json) e lido deste mesmo repositorio.
-
 on:
   push:
     paths-ignore:
@@ -20,17 +17,20 @@ jobs:
       run:
         shell: bash
     steps:
-      - name: Instalar bibliotecas do Switch
-        run: dkp-pacman -Sy --noconfirm --needed switch-dev switch-sdl2 switch-sdl2_image switch-sdl2_ttf switch-curl switch-zlib
+      - name: Checkout do código
+        uses: actions/checkout@v4
 
-      - name: Criar o codigo do app
+      - name: Instalar bibliotecas do Switch
+        run: dkp-pacman -Syu --noconfirm --needed switch-dev switch-sdl2 switch-sdl2_image switch-sdl2_ttf switch-curl switch-zlib zip
+
+      - name: Criar o código do app
         env:
           REPO: ${{ github.repository }}
-          BRANCH: ${{ github.event.repository.default_branch }}
+          BRANCH: ${{ github.ref_name }}
         run: |
           mkdir -p src include
           cat > src/main.cpp <<'ROMSTORE_EOF'
-          // ROM Store - catalogo e downloader para Nintendo Switch (libnx + SDL2 + curl)
+          // ROM Store - catálogo e downloader para Nintendo Switch (libnx + SDL2 + curl)
           #include <switch.h>
           #include <SDL2/SDL.h>
           #include <SDL2/SDL_image.h>
@@ -45,8 +45,7 @@ jobs:
           #include "json.hpp"
           using json = nlohmann::json;
 
-          // Endereco padrao do catalogo. Pode ser trocado sem recompilar em sdmc:/switch/romstore/config.ini
-          // (conteudo do arquivo:  catalogo=https://seusite.com/catalogo.json)
+          // Endereço padrão do catálogo. Pode ser trocado sem recompilar em sdmc:/switch/romstore/config.ini
           static const char* DEFAULT_URL = "https://SEUUSUARIO.github.io/SEUREPO/catalogo.json";
           static const char* CONFIG_PATH = "sdmc:/switch/romstore/config.ini";
 
@@ -79,7 +78,7 @@ jobs:
           static void setup(CURL* c, const std::string& url) {
               curl_easy_setopt(c, CURLOPT_URL, url.c_str());
               curl_easy_setopt(c, CURLOPT_FOLLOWLOCATION, 1L);
-              curl_easy_setopt(c, CURLOPT_SSL_VERIFYPEER, 0L);  // v1: sem certificado CA embutido
+              curl_easy_setopt(c, CURLOPT_SSL_VERIFYPEER, 0L);
               curl_easy_setopt(c, CURLOPT_SSL_VERIFYHOST, 0L);
               curl_easy_setopt(c, CURLOPT_USERAGENT, "romstore/1.0");
               curl_easy_setopt(c, CURLOPT_CONNECTTIMEOUT, 15L);
@@ -116,7 +115,7 @@ jobs:
               SDL_DestroyTexture(t);
               SDL_FreeSurface(sf);
           }
-          static std::string fit(TTF_Font* f, std::string s, int maxw) {  // corta texto com "..." (seguro p/ UTF-8)
+          static std::string fit(TTF_Font* f, std::string s, int maxw) {
               int w = 0, h = 0;
               TTF_SizeUTF8(f, s.c_str(), &w, &h);
               if (w <= maxw) return s;
@@ -131,7 +130,7 @@ jobs:
           }
 
           static std::map<std::string, SDL_Texture*> cache;
-          static int loadBudget = 1;  // 1 imagem nova por quadro, para a tela nao travar
+          static int loadBudget = 1;
           static SDL_Texture* tex(const std::string& url) {
               if (url.empty()) return nullptr;
               auto it = cache.find(url);
@@ -147,7 +146,7 @@ jobs:
               cache[url] = t;
               return t;
           }
-          static void img(const std::string& url, int x, int y, int w, int h) {  // mantem a proporcao da imagem
+          static void img(const std::string& url, int x, int y, int w, int h) {
               SDL_Texture* t = tex(url);
               rect(x, y, w, h, PH);
               if (!t) return;
@@ -160,7 +159,7 @@ jobs:
               SDL_RenderCopy(ren, t, nullptr, &d);
           }
 
-          // ---------- catalogo ----------
+          // ---------- catálogo ----------
           static std::string catalogUrl() {
               if (FILE* f = fopen(CONFIG_PATH, "r")) {
                   char line[512];
@@ -203,7 +202,8 @@ jobs:
               }
           }
 
-          // ---------- download ----------
+          // ---------- download ---------
+           // ---------- download ----------
           static void drawProgress(const std::string& title, double pct, curl_off_t tot, curl_off_t now) {
               SDL_SetRenderDrawColor(ren, BG.r, BG.g, BG.b, 255);
               SDL_RenderClear(ren);
@@ -226,7 +226,7 @@ jobs:
               if (t - last > 100) { last = t; drawProgress(*(std::string*)u, tot > 0 ? (double)now / tot : -1, tot, now); }
               return cancel ? 1 : 0;
           }
-          static std::string downloadRom(const Game& g) {  // retorna "" se deu certo, ou a mensagem de erro
+          static std::string downloadRom(const Game& g) {
               if (!safeName(g.arquivo) || !safeName(g.sistema) || g.url.empty()) return "Dados do jogo inválidos no catálogo";
               mkdir("sdmc:/roms", 0777);
               mkdir(("sdmc:/roms/" + lower(g.sistema)).c_str(), 0777);
@@ -249,7 +249,7 @@ jobs:
               return r == CURLE_ABORTED_BY_CALLBACK ? "Download cancelado" : std::string("Falha no download: ") + curl_easy_strerror(r);
           }
 
-          static bool askText(std::string& out) {  // teclado nativo do Switch
+          static bool askText(std::string& out) {
               SwkbdConfig k;
               char buf[64] = {0};
               if (R_FAILED(swkbdCreate(&k, 0))) return false;
@@ -268,7 +268,6 @@ jobs:
               return v;
           }
 
-          // ---------- telas ----------
           enum Scr { GRID, DETAIL };
 
           int main(int, char**) {
@@ -306,7 +305,7 @@ jobs:
                   while (SDL_PollEvent(&e)) {
                       if (e.type == SDL_QUIT) run = false;
                       if (e.type != SDL_JOYBUTTONDOWN) continue;
-                      int b = e.jbutton.button;  // 0 A, 1 B, 2 X, 3 Y, 6 L, 7 R, 10 +, 12 esq, 13 cima, 14 dir, 15 baixo
+                      int b = e.jbutton.button;
                       int n = (int)view.size();
                       if (b == 10) { run = false; }
                       else if (scr == GRID && side) {
@@ -421,25 +420,25 @@ jobs:
       - name: Baixar biblioteca JSON
         run: curl -L -o include/json.hpp https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp
 
-      - name: Compilar
+      - name: Compilar e empacotar ZIP
         run: |
           set -e
           P=$DEVKITPRO/portlibs/switch
-          PK=$P/bin/aarch64-none-elf-pkg-config
           ARCH="-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE"
           aarch64-none-elf-g++ -g -Wall -O2 -ffunction-sections $ARCH -D__SWITCH__ -std=gnu++17 -fexceptions \
-            -Iinclude -I$P/include -I$DEVKITPRO/libnx/include $($PK --cflags sdl2 SDL2_image SDL2_ttf libcurl) \
+            -Iinclude -I$P/include -I$DEVKITPRO/libnx/include $(aarch64-none-elf-pkg-config --cflags SDL2_image SDL2_ttf libcurl sdl2) \
             -c src/main.cpp -o main.o
           aarch64-none-elf-g++ -specs=$DEVKITPRO/libnx/switch.specs -g $ARCH main.o \
-            -L$P/lib -L$DEVKITPRO/libnx/lib $($PK --libs --static sdl2 SDL2_image SDL2_ttf libcurl) -lnx -o romstore.elf
+            -L$P/lib -L$DEVKITPRO/libnx/lib $(aarch64-none-elf-pkg-config --libs --static SDL2_image SDL2_ttf libcurl sdl2) -lnx -o romstore.elf
           nacptool --create "ROM Store" "voce" "1.0.0" romstore.nacp
           elf2nro romstore.elf romstore.nro --nacp=romstore.nacp
-          ls -l romstore.nro
+          zip -r romstore.zip romstore.nro
+          ls -l romstore.zip
 
       - uses: actions/upload-artifact@v4
         with:
-          name: romstore-nro
-          path: romstore.nro
+          name: romstore-zip
+          path: romstore.zip
 
   publicar:
     needs: build
@@ -447,12 +446,13 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: romstore-nro
+          name: romstore-zip
 
       - name: Publicar na aba Releases
         uses: softprops/action-gh-release@v2
         with:
           tag_name: nro
-          name: ROM Store (NRO)
-          body: "Baixe o romstore.nro e coloque em sdmc:/switch/romstore/ no cartao SD."
-          files: romstore.nro
+          name: ROM Store (ZIP)
+          body: "Descompacte o romstore.zip e coloque o ficheiro romstore.nro na pasta sdmc:/switch/romstore/ do cartão SD."
+          files: romstore.zip
+          overwrite: true
