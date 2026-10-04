@@ -18,8 +18,7 @@ jobs:
         shell: bash
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v4
-              - name: Instalar bibliotecas do Switch
+        uses: actions/checkout@v
         run: yes '' | dkp-pacman -Syu --noconfirm --needed switch-dev switch-sdl2 switch-sdl2_image switch-sdl2_ttf switch-curl switch-zlib zip
 
       - name: Criar o código do app
