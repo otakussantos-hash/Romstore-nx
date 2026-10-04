@@ -382,5 +382,83 @@ jobs:
                           }
                           text(fS, "A: escolher     B: fechar", 30, 684, WHITE);
                       }
-                  } else if (n > 0) {
+                  }else  if (n > 0) {
+                  const Game& g = games[view[sel]];
+                      std::vector<std::string> gl = gallery(g);
+                      if (!gl.empty()) { thumb = std::min(thumb, (int)gl.size() - 1); img(gl[thumb], 40, 50, 720, 405); }
+                      else rect(40, 50, 720, 405, PH);
+                      for (size_t i = 0; i < gl.size() && i < 5; i++) {
+                          int x = 40 + (int)i * 144;
+                          if ((int)i == thumb) rect(x - 4, 481, 138, 82, SEL);
+                          img(gl[i], x, 485, 130, 74);
+                      }
+                      text(fS, g.sistema + (g.tamanho.empty() ? "" : "   |   " + g.tamanho), 800, 50, GRAY);
+                      text(fM, g.titulo, 800, 85, WHITE, 440);
+                      SDL_Rect clip = {800, 190, 440, 360};
+                      SDL_RenderSetClipRect(ren, &clip);
+                      text(fS, g.descricao, 800, 190, WHITE, 440);
+                      SDL_RenderSetClipRect(ren, nullptr);
+                      bool done = exists(destPath(g));
+                      rect(800, 570, 440, 64, done ? GREEN : ORANGE);
+                      text(fM, done ? "Baixado (A: baixar de novo)" : "Baixar", 1020, 582, WHITE, 0, true);
+                      if (SDL_GetTicks() < msgUntil) text(fS, fit(fS, msg, 1200), 40, 645, WHITE);
+                      text(fS, "A: baixar     B: voltar     Esq/Dir: fotos", 40, 684, GRAY);
+                  }
+                  SDL_RenderPresent(ren);
+              }
+
+              for (auto& kv : cache) if (kv.second) SDL_DestroyTexture(kv.second);
+              TTF_Quit(); IMG_Quit(); SDL_Quit();
+              curl_global_cleanup();
+              plExit();
+              socketExit();
+              return 0;
+          }
+          ROMSTORE_EOF
+          sed -i "s|https://SEUUSUARIO.github.io/SEUREPO/catalogo.json|https://raw.githubusercontent.com/${REPO}/${BRANCH}/catalogo.json|" src/main.cpp
+          grep -n "raw.githubusercontent" src/main.cpp
+
+      - name: Baixar biblioteca JSON
+        run: curl -L -o include/json.hpp https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp
+
+      - name: Compilar
+        run: |
+          set -e
+          P=$DEVKITPRO/portlibs/switch
+          PK=$P/bin/aarch64-none-elf-pkg-config
+          ARCH="-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE"
+          aarch64-none-elf-g++ -g -Wall -O2 -ffunction-sections $ARCH -D__SWITCH__ -std=gnu++17 -fexceptions \
+            -Iinclude -I$P/include -I$DEVKITPRO/libnx/include $($PK --cflags sdl2 SDL2_image SDL2_ttf libcurl) \
+            -c src/main.cpp -o main.o
+          aarch64-none-elf-g++ -specs=$DEVKITPRO/libnx/switch.specs -g $ARCH main.o \
+            -L$P/lib -L$DEVKITPRO/libnx/lib $($PK --libs --static sdl2 SDL2_image SDL2_ttf libcurl) -lnx -o romstore.elf
+          nacptool --create "ROM Store" "voce" "1.0.0" romstore.nacp
+          elf2nro romstore.elf romstore.nro --nacp=romstore.nacp
+          ls -l romstore.nro
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: romstore-nro
+          path: romstore.nro
+
+  publicar:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: romstore-nro
+
+      - name: Publicar na aba Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: nro
+          name: ROM Store (NRO)
+          body: "Baixe o romstore.nro e coloque em sdmc:/switch/romstore/ no cartao SD."
+          files: romstore.nro
+
+
+
+
+                  
                 
