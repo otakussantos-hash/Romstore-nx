@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROM Store - Painel admin</title>
+<style>
+:root{--bg:#eceef2;--card:#fff;--ink:#1c2230;--mute:#667085;--line:#d9dde5;--or:#ff7a00;--or2:#e56d00}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.45 "Segoe UI","Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:270px 1fr;min-height:100vh}
+aside{background:var(--or);color:#fff;padding:28px 22px}
+aside h1{font-size:22px;margin:0 0 24px}
+aside h2{font-size:15px;font-weight:600;margin:0 0 10px;opacity:.9}
+ul{list-style:none;margin:0 0 14px;padding:0}
+#cats li{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.35);font-size:17px}
+#cats button{background:none;border:0;color:#fff;font-size:20px;cursor:pointer;padding:0 6px}
+.add{display:flex;gap:6px}
+.add input{flex:1;min-width:0}
+main{padding:28px;max-width:900px}
+section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px;margin-bottom:22px}
+h3{margin:0 0 14px;font-size:18px}
+label{display:block;font-weight:600;font-size:13.5px;margin:12px 0 4px}
+input,select,textarea{width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+textarea{min-height:76px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+button{font:inherit;cursor:pointer}
+.btn{background:var(--or);color:#fff;border:0;border-radius:6px;padding:9px 16px;font-weight:600}
+.btn:hover{background:var(--or2)}
+.btn.sec{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn.sec:hover{background:#f4f5f8}
+aside .btn{background:#fff;color:var(--or2);padding:8px 12px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.game{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.game:last-child{border:0}
+.game small{color:var(--mute)}
+.game .bar button{padding:6px 12px}
+#status{min-height:22px;color:var(--or2);font-weight:600;margin-top:10px}
+:focus-visible{outline:3px solid #1b6ef3;outline-offset:2px}
+#pvwrap{position:relative;width:100%;aspect-ratio:16/9;background:#181820;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+#pvstage{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0;font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;line-height:1.25}
+#pvov{position:absolute;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center}
+#pvov .box{background:#fff;border-radius:10px;padding:16px;width:min(340px,86%)}
+#pvpad{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+#pvpad button{min-width:46px}
+.hint{color:var(--mute);font-size:13.5px;margin:10px 0 0}
+.tst{display:flex;align-items:center;gap:10px;margin-top:6px;font-size:13px;color:var(--mute)}
+.tst img{width:64px;height:36px;object-fit:cover;border-radius:4px;background:#e4e6eb}
+.tst.ok span{color:#1a7f37}.tst.erro span{color:#b42318}
+@media(max-width:760px){body{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<aside>
+  <h1>ROM Store</h1>
+  <h2>Categorias</h2>
+  <ul id="cats"></ul>
+  <div class="add">
+    <input id="novaCat" placeholder="Ex.: SNES" aria-label="Nova categoria">
+    <button class="btn" id="addCat">Adicionar</button>
+  </div>
+</aside>
+<main>
+  <section>
+    <div class="bar">
+      <label class="btn sec" style="margin:0;font-size:15px">Abrir catalogo.json<input id="abrir" type="file" accept=".json,application/json" hidden></label>
+      <button class="btn" id="baixar">Baixar catalogo.json</button>
+      <button class="btn sec" id="verPrevia">Ver prévia do usuário</button>
+    </div>
+    <div id="status" role="status"></div>
+  </section>
+
+  <section>
+    <h3 id="formTitulo">Novo jogo</h3>
+    <div class="row">
+      <div><label for="titulo">Título</label><input id="titulo"></div>
+      <div><label for="sistema">Categoria</label><select id="sistema"></select></div>
+    </div>
+    <label for="descricao">Descrição</label><textarea id="descricao"></textarea>
+    <label for="url">Link direto da ROM</label><input id="url" placeholder="https://...">
+    <div class="row">
+      <div><label for="arquivo">Nome do arquivo (como será salvo)</label><input id="arquivo" placeholder="meujogo.gba"></div>
+      <div><label for="tamanho">Tamanho (exibição)</label><input id="tamanho" placeholder="8 MB"></div>
+    </div>
+    <label for="capa">Link da capa (de preferência 16:9, até 1280x720)</label><input id="capa" placeholder="https://...">
+    <div id="capaTeste"></div>
+    <label for="fotos">Links das fotos de gameplay (um por linha)</label><textarea id="fotos"></textarea>
+    <div id="fotosTeste"></div>
+    <div class="bar" style="margin-top:16px">
+      <button class="btn" id="salvar">Salvar jogo</button>
+      <button class="btn sec" id="limpar">Limpar</button>
+    </div>
+  </section>
+
+  <section>
+    <h3>Jogos cadastrados</h3>
+    <div id="lista"></div>
+  </section>
+
+  <section id="pvsec">
+    <h3>Prévia: como o usuário vê no Switch</h3>
+    <div id="pvwrap" tabindex="0" aria-label="Prévia da tela do app">
+      <div id="pvstage"></div>
+      <div id="pvov"><div class="box">
+        <p style="margin:0 0 8px;font-weight:600">Buscar jogo</p>
+        <input id="pvq" type="text" placeholder="Digite o nome">
+        <div class="bar" style="justify-content:flex-end;margin-top:12px">
+          <button class="btn sec" id="pvqc">Cancelar</button><button class="btn" id="pvqok">OK</button>
+        </div>
+      </div></div>
+    </div>
+    <div id="pvpad">
+      <button class="btn sec" data-k="L">L</button><button class="btn sec" data-k="R">R</button>
+      <button class="btn sec" data-k="LT" aria-label="Esquerda">←</button>
+      <button class="btn sec" data-k="U" aria-label="Cima">↑</button>
+      <button class="btn sec" data-k="D" aria-label="Baixo">↓</button>
+      <button class="btn sec" data-k="RT" aria-label="Direita">→</button>
+      <button class="btn sec" data-k="Y">Y</button><button class="btn sec" data-k="B">B</button><button class="btn sec" data-k="A">A</button>
+    </div>
+    <p class="hint">A prévia usa os jogos e categorias cadastrados agora, com as imagens dos links. O download aqui é só uma simulação. Clique na tela para usar o teclado: setas, Enter (A), Esc (B), Y, Q e E (L e R).</p>
+  </section>
+</main>
+
+<script>
+let data = { categorias: [], jogos: [] }, editando = -1;
+const $ = id => document.getElementById(id);
+const campos = ['titulo', 'sistema', 'descricao', 'url', 'arquivo', 'tamanho', 'capa'];
+
+function persistir() { try { localStorage.setItem('romstore', JSON.stringify(data)); } catch (e) {} }
+function restaurar() { try { const s = localStorage.getItem('romstore'); if (s) data = JSON.parse(s); } catch (e) {} }
+function aviso(t) { $('status').textContent = t; }
+function slug(s) { return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+
+function direto(u) {
+  u = (u || '').trim();
+  let m;
+  if ((m = u.match(/^https?:\/\/([a-z-]+\.(?:wikipedia|wikimedia)\.org)\/wiki\/(?:File|Ficheiro|Arquivo|Imagem|Image|Archivo|Fichier|Datei):([^?#]+)/i))) return 'https://' + m[1] + '/wiki/Special:FilePath/' + m[2];
+  if ((m = u.match(/^https?:\/\/(?:www\.)?github\.com\/([^\/]+)\/([^\/]+)\/blob\/(.+)$/i))) return 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3].split('?')[0];
+  if ((m = u.match(/^https?:\/\/(?:www\.)?imgur\.com\/(?!a\/|gallery\/)([A-Za-z0-9]+)$/i))) return 'https://i.imgur.com/' + m[1] + '.jpg';
+  if ((m = u.match(/^https?:\/\/drive\.google\.com\/file\/d\/([^\/?]+)/i))) return 'https://lh3.googleusercontent.com/d/' + m[1];
+  if ((m = u.match(/^https?:\/\/drive\.google\.com\/open\?id=([^&]+)/i))) return 'https://lh3.googleusercontent.com/d/' + m[1];
+  if (/^https?:\/\/(?:www\.)?dropbox\.com\//i.test(u)) return u.replace(/([?&])dl=0/, '$1raw=1');
+  return u;
+}
+function testar(box, urls) {
+  box.innerHTML = '';
+  urls.forEach(raw => {
+    const u = direto(raw); if (!u) return;
+    const item = document.createElement('div'); item.className = 'tst';
+    const im = new Image(); im.referrerPolicy = 'no-referrer'; im.alt = '';
+    const info = document.createElement('span'); info.textContent = 'Carregando...';
+    im.onload = () => {
+      const r = im.naturalWidth / im.naturalHeight;
+      if (/\.(webp|avif|gif|bmp)(\?|$)/i.test(u)) { info.textContent = 'Carregou, mas o Switch só lê JPG e PNG. Converta a imagem.'; item.classList.add('erro'); return; }
+      info.textContent = 'OK (' + im.naturalWidth + '×' + im.naturalHeight + ')' + (Math.abs(r - 16 / 9) > 0.25 ? ' - fora de 16:9, aparece com faixas escuras ao redor' : '');
+      item.classList.add('ok');
+    };
+    im.onerror = () => { im.remove(); info.textContent = 'Não carregou. Use o link direto da imagem (abre só a foto e termina em .jpg ou .png).'; item.classList.add('erro'); };
+    item.append(im, info); box.append(item); im.src = u;
+  });
+}
+function atualizarTestes() {
+  testar($('capaTeste'), [$('capa').value.trim()]);
+  testar($('fotosTeste'), $('fotos').value.split('\n').map(x => x.trim()).filter(Boolean));
+}
+let _tt; const _agenda = () => { clearTimeout(_tt); _tt = setTimeout(atualizarTestes, 500); };
+$('capa').addEventListener('input', _agenda); $('fotos').addEventListener('input', _agenda);
+
+function limpar() {
+  editando = -1;
+  campos.forEach(c => { if (c !== 'sistema') $(c).value = ''; });
+  $('fotos').value = '';
+  $('formTitulo').textContent = 'Novo jogo';
+  $('salvar').textContent = 'Salvar jogo';
+  atualizarTestes();
+}
+
+function render() {
+  const ul = $('cats'); ul.innerHTML = '';
+  data.categorias.forEach((c, i) => {
+    const li = document.createElement('li'); li.textContent = c;
+    const b = document.createElement('button'); b.textContent = '×'; b.title = 'Remover ' + c;
+    b.onclick = () => { data.categorias.splice(i, 1); persistir(); render(); };
+    li.append(b); ul.append(li);
+  });
+  const sel = $('sistema'), atual = sel.value; sel.innerHTML = '';
+  data.categorias.forEach(c => { const o = document.createElement('option'); o.textContent = c; sel.append(o); });
+  if (atual) sel.value = atual;
+
+  const lista = $('lista'); lista.innerHTML = '';
+  if (!data.jogos.length) lista.textContent = 'Nenhum jogo ainda. Preencha o formulário acima e clique em Salvar jogo.';
+  data.jogos.forEach((g, i) => {
+    const d = document.createElement('div'); d.className = 'game';
+    const t = document.createElement('div');
+    t.innerHTML = '<strong></strong><br><small></small>';
+    t.firstChild.textContent = g.titulo; t.lastChild.textContent = g.sistema + ' - ' + g.arquivo;
+    const bar = document.createElement('div'); bar.className = 'bar';
+    const e = document.createElement('button'); e.className = 'btn sec'; e.textContent = 'Editar';
+    e.onclick = () => {
+      editando = i;
+      campos.forEach(c => $(c).value = g[c] || '');
+      $('fotos').value = (g.fotos || []).join('\n'); atualizarTestes();
+      $('formTitulo').textContent = 'Editando: ' + g.titulo; $('salvar').textContent = 'Atualizar jogo';
+      scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    const r = document.createElement('button'); r.className = 'btn sec'; r.textContent = 'Remover';
+    r.onclick = () => { if (confirm('Remover "' + g.titulo + '"?')) { data.jogos.splice(i, 1); persistir(); limpar(); render(); } };
+    bar.append(e, r); d.append(t, bar); lista.append(d);
+  });
+  if (window.pvRefresh) pvRefresh();
+}
+
+$('addCat').onclick = () => {
+  const v = $('novaCat').value.trim();
+  if (!v) return;
+  if (data.categorias.some(c => c.toLowerCase() === v.toLowerCase())) { aviso('Essa categoria já existe.'); return; }
+  data.categorias.push(v); $('novaCat').value = ''; persistir(); render();
+};
+$('novaCat').addEventListener('keydown', e => { if (e.key === 'Enter') $('addCat').click(); });
+
+$('salvar').onclick = () => {
+  const g = {};
+  campos.forEach(c => g[c] = $(c).value.trim());
+  g.fotos = $('fotos').value.split('\n').map(s => s.trim()).filter(Boolean);
+  const antes = [g.capa].concat(g.fotos).join('|');
+  g.capa = direto(g.capa); g.fotos = g.fotos.map(direto);
+  const ajustou = antes !== [g.capa].concat(g.fotos).join('|');
+  if (!g.arquivo && g.url) g.arquivo = decodeURIComponent(g.url.split('?')[0].split('/').pop());
+  if (!g.titulo || !g.sistema || !g.url || !g.arquivo) { aviso('Preencha título, categoria e link da ROM (o nome do arquivo é deduzido do link).'); return; }
+  if (/[\/\\]|\.\./.test(g.arquivo)) { aviso('O nome do arquivo não pode ter / \\ ou ..'); return; }
+  g.id = slug(g.titulo);
+  const ordem = ['id', 'titulo', 'sistema', 'descricao', 'capa', 'fotos', 'url', 'arquivo', 'tamanho'];
+  const novo = {}; ordem.forEach(k => novo[k] = g[k]);
+  if (editando >= 0) data.jogos[editando] = novo; else data.jogos.push(novo);
+  aviso('Jogo salvo.' + (ajustou ? ' Links de imagem ajustados para links diretos.' : '') + ' Lembre de baixar o catalogo.json e enviar para a hospedagem.');
+  persistir(); limpar(); render();
+};
+$('limpar').onclick = limpar;
+
+$('baixar').onclick = () => {
+  data.jogos.forEach(g => { g.capa = direto(g.capa || ''); g.fotos = (g.fotos || []).map(direto); }); persistir();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'catalogo.json'; a.click();
+  URL.revokeObjectURL(a.href);
+  aviso('catalogo.json baixado. Envie-o para a hospedagem.');
+};
+
+$('abrir').onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      const j = JSON.parse(r.result);
+      if (!Array.isArray(j.jogos)) throw new Error();
+      data = { categorias: Array.isArray(j.categorias) ? j.categorias : [], jogos: j.jogos };
+      persistir(); limpar(); render(); aviso('Catálogo carregado: ' + data.jogos.length + ' jogo(s).');
+    } catch (err) { aviso('Esse arquivo não parece um catalogo.json válido.'); }
+  };
+  r.readAsText(f); e.target.value = '';
+};
+
+(function () {
+  const GRAY = '#AAAAB6', ORANGE = '#FF7A00', ORANGE_L = '#FFAA50', SEL = '#00AAFF', INK = '#19191E', GREEN = '#32AA5A', WHITE = '#fff', PH = '#3A3A46';
+  let G = [], CATS = [], scr = 'grid', side = false, sel = 0, sideSel = 0, thumb = 0, query = '', cat = '', msg = '', search = false, view = [], saved = {}, dl = null, tm = null, msgTm = null;
+  const st = $('pvstage'), wrap = $('pvwrap'), ov = $('pvov'), qi = $('pvq');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const T = (x, y, sz, c, t, e = '') => `<div style="position:absolute;left:${x}px;top:${y}px;font-size:${sz}px;color:${c};white-space:pre;${e}">${t}</div>`;
+  const R = (x, y, w, h, bg, inner = '', e = '') => `<div style="position:absolute;left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:${bg};${e}">${inner}</div>`;
+  const pic = (url, w, h) => R(0, 0, w, h, PH) + (url ? `<img referrerpolicy="no-referrer" src="${esc(url)}" alt="" style="position:absolute;left:0;top:0;width:${w}px;height:${h}px;object-fit:contain" onerror="this.remove()">` : '');
+  const gallery = g => [g.capa].concat(g.fotos).filter(Boolean);
+  function sizeMB(t) {
+    const m = /([\d.,]+)\s*(GB|MB|KB)?/i.exec(t || '');
+    if (!m) return 10;
+    const v = parseFloat(m[1].replace(',', '.')) || 10, u = (m[2] || 'MB').toUpperCase();
+    return u === 'GB' ? v * 1024 : u === 'KB' ? v / 1024 : v;
+  }
+  function refilter() {
+    const q = query.toLowerCase();
+    view = G.map((g, i) => i).filter(i => (!cat || G[i].s.toLowerCase() === cat.toLowerCase()) && (!q || G[i].t.toLowerCase().includes(q)));
+  }
+
+  function draw() {
+    let h = '';
+    const n = view.length;
+    if (scr === 'dl') {
+      const g = dl.g, pct = dl.p;
+      h += T(640, 200, 42, WHITE, 'Baixando...', 'transform:translateX(-50%)');
+      h += T(640, 270, 28, GRAY, esc(g.t), 'transform:translateX(-50%)');
+      h += R(240, 360, 800, 28, PH) + R(240, 360, Math.round(800 * pct), 28, ORANGE);
+      h += T(640, 410, 22, WHITE, (pct * g.mb).toFixed(1) + ' MB / ' + g.mb.toFixed(1) + ' MB', 'transform:translateX(-50%)');
+      h += T(640, 620, 22, GRAY, 'B: cancelar', 'transform:translateX(-50%)');
+    } else if (scr === 'grid') {
+      let head = cat || 'Todos os jogos';
+      if (query) head += '  -  busca: ' + esc(query);
+      h += T(40, 32, 28, WHITE, head);
+      if (!n) h += T(40, 150, 28, GRAY, 'Nenhum jogo encontrado');
+      const page = Math.floor(sel / 6);
+      for (let k = 0; k < 6; k++) {
+        const i = page * 6 + k;
+        if (i >= n) break;
+        const g = G[view[i]], x = 40 + (k % 3) * 410, y = 100 + Math.floor(k / 3) * 270;
+        if (i === sel && !side) h += R(x - 5, y - 5, 390, 262, SEL);
+        h += R(x, y, 380, 252, '#fff',
+          R(0, 0, 380, 214, 'transparent', pic(g.capa, 380, 214), 'overflow:hidden') +
+          T(10, 218, 22, INK, esc(g.t), 'width:360px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap'));
+      }
+      const pages = Math.max(1, Math.ceil(n / 6));
+      for (let p = 0; p < pages && p < 20; p++) h += R(640 - pages * 7 + p * 14, 652, 8, 8, p === page ? WHITE : GRAY);
+      h += T(40, 684, 22, GRAY, 'Y: busca e categorias     A: abrir     L/R: página     +: sair');
+      if (side) {
+        h += R(0, 0, 320, 720, ORANGE);
+        [query ? 'Buscar: ' + esc(query) : 'Buscar', 'Todos'].concat(CATS.map(esc)).forEach((lb, i) => {
+          const y = 90 + i * 56;
+          if (i === sideSel) h += R(0, y - 8, 320, 52, ORANGE_L);
+          h += T(30, y, 28, WHITE, lb, 'width:270px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap');
+          if (i === 1) h += R(30, y + 48, 260, 2, ORANGE_L);
+        });
+        h += T(30, 684, 22, WHITE, 'A: escolher     B: fechar');
+      }
+    } else {
+      const gi = view[sel], g = G[gi], gl = gallery(g);
+      thumb = Math.min(thumb, Math.max(0, gl.length - 1));
+      h += R(40, 50, 720, 405, 'transparent', pic(gl[thumb] || '', 720, 405), 'overflow:hidden');
+      for (let i = 0; i < gl.length && i < 5; i++) {
+        const x = 40 + i * 144;
+        if (i === thumb) h += R(x - 4, 481, 138, 82, SEL);
+        h += R(x, 485, 130, 74, 'transparent', pic(gl[i], 130, 74), 'overflow:hidden');
+      }
+      h += T(800, 50, 22, GRAY, esc(g.s + (g.tam ? '   |   ' + g.tam : '')));
+      h += T(800, 85, 28, WHITE, esc(g.t), 'width:440px;white-space:normal');
+      h += R(800, 190, 440, 360, 'transparent', T(0, 0, 22, WHITE, esc(g.d), 'width:440px;white-space:normal'), 'overflow:hidden');
+      const done = !!saved[g.key];
+      h += R(800, 570, 440, 64, done ? GREEN : ORANGE, T(220, 12, 28, WHITE, done ? 'Baixado (A: baixar de novo)' : 'Baixar', 'transform:translateX(-50%)'));
+      if (msg) h += T(40, 645, 22, WHITE, esc(msg));
+      h += T(40, 684, 22, GRAY, 'A: baixar     B: voltar     Esq/Dir: fotos');
+    }
+    st.innerHTML = h;
+  }
+
+  function toast(m) {
+    msg = m; clearTimeout(msgTm);
+    msgTm = setTimeout(() => { msg = ''; if (scr === 'detail') draw(); }, 7000);
+  }
+  function startDl() {
+    const g = G[view[sel]];
+    if (!g.f || !g.s || !g.url || /[\/\\]|\.\./.test(g.f + g.s)) { toast('Dados do jogo inválidos no catálogo'); return; }
+    dl = { g: g, p: 0 }; scr = 'dl'; msg = '';
+    tm = setInterval(() => {
+      dl.p += g.mb > 100 ? 0.012 : 0.035;
+      if (dl.p >= 1) {
+        clearInterval(tm); saved[g.key] = 1; scr = 'detail';
+        toast('Salvo em sdmc:/roms/' + g.s.toLowerCase() + '/' + g.f);
+      }
+      draw();
+    }, 100);
+  }
+  function press(k) {
+    if (search) return;
+    if (scr === 'dl') {
+      if (k === 'B') { clearInterval(tm); scr = 'detail'; toast('Download cancelado'); }
+      draw(); return;
+    }
+    const n = view.length;
+    if (scr === 'grid' && side) {
+      const items = 2 + CATS.length;
+      if (k === 'U' && sideSel > 0) sideSel--;
+      else if (k === 'D' && sideSel < items - 1) sideSel++;
+      else if (k === 'B' || k === 'RT' || k === 'Y') side = false;
+      else if (k === 'A') {
+        if (sideSel === 0) { openSearch(); return; }
+        if (sideSel === 1) { cat = ''; query = ''; } else cat = CATS[sideSel - 2];
+        refilter(); sel = 0; side = false;
+      }
+    } else if (scr === 'grid') {
+      if (k === 'Y') side = true;
+      else if (k === 'LT') { if (sel % 3 === 0) side = true; else sel--; }
+      else if (k === 'RT') { if (sel % 3 < 2 && sel + 1 < n) sel++; }
+      else if (k === 'U') { if (sel - 3 >= 0) sel -= 3; }
+      else if (k === 'D') { if (sel + 3 < n) sel += 3; }
+      else if (k === 'L') sel = Math.max(0, sel - 6);
+      else if (k === 'R') sel = Math.min(Math.max(n - 1, 0), sel + 6);
+      else if (k === 'A' && n > 0) { scr = 'detail'; thumb = 0; msg = ''; }
+    } else {
+      const cnt = Math.max(1, gallery(G[view[sel]]).length);
+      if (k === 'B') scr = 'grid';
+      else if (k === 'LT' || k === 'L') thumb = (thumb + cnt - 1) % cnt;
+      else if (k === 'RT' || k === 'R') thumb = (thumb + 1) % cnt;
+      else if (k === 'A') { startDl(); }
+    }
+    draw();
+  }
+
+  function openSearch() { search = true; ov.style.display = 'flex'; qi.value = query; qi.focus(); }
+  function closeSearch(ok) {
+    if (ok) { query = qi.value.trim(); refilter(); sel = 0; side = false; }
+    ov.style.display = 'none'; search = false; draw(); wrap.focus();
+  }
+  $('pvqok').onclick = () => closeSearch(true);
+  $('pvqc').onclick = () => closeSearch(false);
+  qi.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); closeSearch(true); }
+    if (e.key === 'Escape') { e.preventDefault(); closeSearch(false); }
+  });
+  document.querySelectorAll('#pvpad button').forEach(b => {
+    b.addEventListener('mousedown', e => e.preventDefault());
+    b.addEventListener('click', () => press(b.dataset.k));
+  });
+  const KM = { ArrowUp: 'U', ArrowDown: 'D', ArrowLeft: 'LT', ArrowRight: 'RT', Enter: 'A', Escape: 'B', Backspace: 'B', y: 'Y', Y: 'Y', q: 'L', Q: 'L', e: 'R', E: 'R' };
+  wrap.addEventListener('keydown', e => {
+    if (search) return;
+    const k = KM[e.key];
+    if (k) { e.preventDefault(); press(k); }
+  });
+  $('verPrevia').onclick = () => $('pvsec').scrollIntoView({ behavior: 'smooth' });
+
+  const fitScale = () => { st.style.transform = 'scale(' + (wrap.clientWidth / 1280) + ')'; };
+  if (window.ResizeObserver) new ResizeObserver(fitScale).observe(wrap);
+  window.addEventListener('resize', fitScale);
+
+  window.pvRefresh = function () {
+    clearInterval(tm);
+    if (scr === 'dl') scr = 'detail';
+    CATS = data.categorias.slice();
+    G = data.jogos.map(g => ({
+      t: g.titulo || '(sem título)', s: g.sistema || '', capa: direto(g.capa || ''), fotos: (g.fotos || []).map(direto),
+      tam: g.tamanho || '', mb: sizeMB(g.tamanho), d: g.descricao || '', f: g.arquivo || '', url: g.url || '',
+      key: g.id || g.arquivo || g.titulo
+    }));
+    if (cat && !CATS.includes(cat)) cat = '';
+    if (sideSel >= 2 + CATS.length) sideSel = 0;
+    refilter();
+    if (sel >= view.length) sel = Math.max(0, view.length - 1);
+    if (scr === 'detail' && !view.length) scr = 'grid';
+    fitScale(); draw();
+  };
+})();
+
+restaurar(); render();
+</script>
+</body>
+</html>
