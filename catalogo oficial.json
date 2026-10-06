@@ -1,0 +1,3040 @@
+{
+  "categorias": [
+    "SNES"
+  ],
+  "jogos": [
+    {
+      "id": "super-mario-kart",
+      "titulo": "Super Mario Kart",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida em que personagens do universo Mario competem em pistas usando itens para ganhar vantagem e atrapalhar os adversários.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/3/38/Supermariokart_box.JPG",
+      "fotos": [
+        "https://jogoveio.com.br/media/wordpress/d7e3abe8f9cd9163b4bc.png",
+        "https://jogoveio.com.br/media/wordpress/b90b6ee004eca4d19af7.jpg",
+        "https://jogoveio.com.br/media/wordpress/c16d6774cded6809120e.jpg"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Mario%20Kart%20%28U%29.smc",
+      "arquivo": "Super Mario Kart (USA).sfc",
+      "tamanho": "512 KB"
+    },
+    {
+      "id": "megaman-bass",
+      "titulo": "Megaman & Bass",
+      "sistema": "SNES",
+      "descricao": "Mega Man e Bass enfrentam inimigos e chefes em uma aventura de ação e plataforma, cada um com habilidades próprias.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/0/08/Mmandbass.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Megaman%20%26%20Bass%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rockman%20%26%20Forte%20%28J%29.smc",
+      "arquivo": "Megaman & Bass (PT-BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "battletoads-double-dragon-the-ultimate-team",
+      "titulo": "Battletoads & Double Dragon - The Ultimate Team",
+      "sistema": "SNES",
+      "descricao": "Battletoads e Double Dragon unem forças para enfrentar gangues e inimigos em combates de ação com progressão por fases.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/6/63/BattleToadsDoubleDragon.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Battletoads%20%26%20Double%20Dragon%20-%20The%20Ultimate%20Team%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Battletoads%20%26%20Double%20Dragon%20-%20The%20Ultimate%20Team%20%28U%29.smc",
+      "arquivo": "Battletoads & Double Dragon - The Ultimate Team (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "rockman-forte-br",
+      "titulo": "Rockman & Forte Br",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Mega Man & Bass, aventura de ação e plataforma protagonizada por dois heróis com estilos diferentes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rockman%20%26%20Forte%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Rockman%20%26%20Forte%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rockman%20%26%20Forte%20%28J%29.smc",
+      "arquivo": "Rockman & Forte Br.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "rockman-forte",
+      "titulo": "Rockman & Forte",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que Mega Man e Bass enfrentam uma série de robôs e chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rockman%20%26%20Forte%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Rockman%20%26%20Forte%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rockman%20%26%20Forte%20%28J%29.smc",
+      "arquivo": "& Forte ptbr.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "joe-mac-2-lost-in-the-tropics",
+      "titulo": "Joe & Mac 2 - Lost in the Tropics",
+      "sistema": "SNES",
+      "descricao": "Joe e Mac atravessam ambientes pré-históricos enfrentando inimigos, armadilhas e chefes em uma aventura de plataforma.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Joe%20%26%20Mac%202%20-%20Lost%20in%20the%20Tropics%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Joe%20%26%20Mac%202%20-%20Lost%20in%20the%20Tropics%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Joe%20%26%20Mac%202%20-%20Lost%20in%20the%20Tropics%20%28U%29.smc",
+      "arquivo": "Joe & Mac 2 - Lost in the Tropics.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mickey-minnie-the-great-circus-mistery",
+      "titulo": "Mickey & Minnie - The Great Circus Mistery",
+      "sistema": "SNES",
+      "descricao": "Mickey e Minnie percorrem cenários de circo procurando pistas e enfrentando inimigos em uma aventura de plataforma.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mickey%20%26%20Minnie%20-%20The%20Great%20Circus%20Mistery%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mickey%20%26%20Minnie%20-%20The%20Great%20Circus%20Mistery%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Great%20Circus%20Mystery%20Starring%20Mickey%20%26%20Minnie%2C%20The%20%28U%29.smc",
+      "arquivo": "Mickey & Minnie - The Great Circus Mistery (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "lufia-the-fortress-of-doom",
+      "titulo": "Lufia & The Fortress of Doom",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura com exploração, batalhas por turnos e uma história envolvendo heróis que enfrentam antigos seres malignos.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/3/36/Lufia_Fortress_of_Doom.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Lufia%20%26%20The%20Fortress%20of%20Doom%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Lufia%20%26%20The%20Fortress%20of%20Doom%20%28U%29.smc",
+      "arquivo": "Lufia & The Fortress of Doom.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "spider-man-venom-maximum-carnage",
+      "titulo": "Spider-Man & Venom - Maximum Carnage",
+      "sistema": "SNES",
+      "descricao": "Spider-Man e Venom atravessam Nova York enfrentando criminosos e simbiontes em uma aventura de ação baseada nos quadrinhos.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/e/e8/MaximumcarnageSNES_boxart.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Spider-Man%20%26%20Venom%20-%20Maximum%20Carnage%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Spider-Man%20%26%20Venom%20-%20Maximum%20Carnage%20%28U%29.smc",
+      "arquivo": "Spider-Man & Venom - Maximum Carnage [SPA)[By-Sayans].smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "spider-man-venom-br-separation-anxiety",
+      "titulo": "Spider-Man & Venom BR Separation Anxiety",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação em que Spider-Man e Venom enfrentam uma ameaça de simbiontes e diversos inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Spider-Man%20%26%20Venom%20BR%20Separation%20Anxiety%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Spider-Man%20%26%20Venom%20BR%20Separation%20Anxiety%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Spider-Man%20%26%20Venom%20BR%20Separation%20Anxiety%20%28U%29.smc",
+      "arquivo": "Spider-Man & Venom BR Separation Anxiety.smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "aladdin",
+      "titulo": "Aladdin",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma inspirada no filme da Disney, com Aladdin atravessando Agrabah e outros cenários enfrentando inimigos e obstáculos.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/f/fd/Disney%27s_Aladdin_%28SNES%29_cover_art.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Aladdin%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Aladdin%20%28U%29.smc",
+      "arquivo": "Aladdin (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "alcahest",
+      "titulo": "Alcahest",
+      "sistema": "SNES",
+      "descricao": "RPG de ação com exploração, combates em tempo real e uma jornada para impedir uma ameaça que coloca o mundo em perigo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Alcahest%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Alcahest%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Alcahestsmc",
+      "arquivo": "Alcahest (BR) v0.99.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "animaniacs",
+      "titulo": "Animaniacs",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada pelos irmãos Warner, que percorrem diferentes cenários enfrentando obstáculos e inimigos.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/b/bf/Animaniacs_SNES_cover_art.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Animaniacs%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Animaniacs%20%28U%29.smc",
+      "arquivo": "Animaniacs (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "arcana",
+      "titulo": "Arcana",
+      "sistema": "SNES",
+      "descricao": "RPG em primeira pessoa com exploração de masmorras, batalhas e formação de grupo para enfrentar perigos em um mundo de fantasia.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/1/14/ArcanaUSBoxShotSNES.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Arcana%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Arcana%20%28U%29.smc",
+      "arquivo": "Arcana (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "biometal",
+      "titulo": "BioMetal",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro espacial em que o jogador controla uma nave e enfrenta ondas de inimigos e grandes chefes.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/a/a8/BioMetal_Coverart.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/BioMetal%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/BioMetal%20%28U%29.smc",
+      "arquivo": "BioMetal (BR).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "blackthorne",
+      "titulo": "Blackthorne",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que um guerreiro armado atravessa um planeta hostil para libertar seu povo.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/4/40/BlackthorneSNES.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Blackthorne%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Blackthorne%20%28U%29.smc",
+      "arquivo": "Blackthorne (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "brandish",
+      "titulo": "Brandish",
+      "sistema": "SNES",
+      "descricao": "RPG de ação focado em exploração de labirintos, combate e descoberta de caminhos em ambientes repletos de perigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Brandish%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Brandish%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Brandish%20%28U%29.smc",
+      "arquivo": "Brandish (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "civilization",
+      "titulo": "Civilization",
+      "sistema": "SNES",
+      "descricao": "Jogo de estratégia em que o jogador desenvolve uma civilização, administra recursos, pesquisa tecnologias e disputa território.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Civilization%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Civilization%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Civilization%20%28U%29.smc",
+      "arquivo": "Civilization (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "lemmings",
+      "titulo": "Lemmings",
+      "sistema": "SNES",
+      "descricao": "Jogo de estratégia e quebra-cabeça no qual o jogador orienta pequenos personagens por obstáculos até levá-los com segurança ao destino.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Lemmings%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Lemmings%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Lemmings%20%28U%29.smc",
+      "arquivo": "Lemmings (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "monstania",
+      "titulo": "Monstania",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura com exploração, combates e personagens que enfrentam perigos em um mundo fantástico.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Monstania%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Monstania%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Monstania%20%28U%29.smc",
+      "arquivo": "Monstania (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "spawn",
+      "titulo": "Spawn",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado no personagem Spawn, com combates contra inimigos em ambientes sombrios.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Spawn%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Spawn%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Spawn%20%28U%29.smc",
+      "arquivo": "Spawn (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "terranigma",
+      "titulo": "Terranigma",
+      "sistema": "SNES",
+      "descricao": "RPG de ação e aventura que acompanha Ark em uma jornada para reconstruir o mundo e descobrir os segredos por trás de sua origem.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/4/4b/SNES_Terranigma_cover_art.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Terranigma%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Terranigma%20%28U%29.smc",
+      "arquivo": "Terranigma (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "warlock",
+      "titulo": "Warlock",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e plataforma com temática de fantasia, magia e combate contra criaturas e inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Warlock%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Warlock%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Warlock%20%28U%29.smc",
+      "arquivo": "Warlock (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "cliffhanger",
+      "titulo": "Cliffhanger",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado no filme, com o protagonista enfrentando criminosos e atravessando ambientes perigosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Cliffhanger%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Cliffhanger%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Cliffhanger%20%28U%29.smc",
+      "arquivo": "Cliffhanger (USA).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "earthbound",
+      "titulo": "Earthbound",
+      "sistema": "SNES",
+      "descricao": "RPG com humor e elementos contemporâneos em que Ness e seus amigos enfrentam uma ameaça sobrenatural durante uma grande aventura.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Earthbound%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Earthbound%20%28U%29.smc",
+      "arquivo": "Earthbound (USA).smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "demons-crest",
+      "titulo": "demons_crest",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma protagonizada por Firebrand, que explora um mundo sombrio em busca de poderes e enfrenta diversos inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/demons_crest%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/demons_crest%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Demon%27s%20Crest%20%28U%29.smc",
+      "arquivo": "demons_crest(br).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "arkanoid-doh-it-again",
+      "titulo": "Arkanoid - Doh It Again",
+      "sistema": "SNES",
+      "descricao": "Jogo de quebra-blocos em que o jogador controla uma nave e rebate uma esfera para destruir formações de blocos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Arkanoid%20-%20Doh%20It%20Again%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Arkanoid%20-%20Doh%20It%20Again%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Arkanoid%20-%20Doh%20It%20Again%20%28U%29.smc",
+      "arquivo": "Arkanoid - Doh It Again (BR).smc",
+      "tamanho": "512 KB"
+    },
+    {
+      "id": "ganpuru-gunman-s-proof",
+      "titulo": "Ganpuru - Gunman's Proof",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação com elementos de exploração, combates e investigação em um cenário inspirado no Velho Oeste.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ganpuru%20-%20Gunman%27s%20Proof%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ganpuru%20-%20Gunman%27s%20Proof%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ganpuru%20-%20Gunman%27s%20Proof%20%28U%29.smc",
+      "arquivo": "Ganpuru - Gunman's Proof (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "popeye-ijiwaru-majo-sea-hag-no-maki",
+      "titulo": "Popeye - Ijiwaru Majo Sea Hag no Maki",
+      "sistema": "SNES",
+      "descricao": "Popeye enfrenta inimigos e obstáculos enquanto percorre fases inspiradas no universo dos personagens clássicos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Popeye%20-%20Ijiwaru%20Majo%20Sea%20Hag%20no%20Maki%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Popeye%20-%20Ijiwaru%20Majo%20Sea%20Hag%20no%20Maki%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Popeye%20-%20Ijiwaru%20Majo%20Sea%20Hag%20no%20Maki%20%28J%29.smc",
+      "arquivo": "Popeye - Ijiwaru Majo Sea Hag no Maki.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "gp-1-part-ii",
+      "titulo": "GP-1 - Part II",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida de motocicletas focado em velocidade, curvas e disputa contra outros pilotos em diferentes circuitos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/GP-1%20-%20Part%20II%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/GP-1%20-%20Part%20II%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/GP-1%20-%20Part%20II%20%28U%29.smc",
+      "arquivo": "GP-1 - Part II (USA).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "7th-saga-br",
+      "titulo": "7Th - Saga BR",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia em que o jogador controla um herói em uma jornada por cidades, masmorras e batalhas contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/7Th%20-%20Saga%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/7Th%20-%20Saga%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/7th%20Saga%2C%20The%20%28U%29.smc",
+      "arquivo": "7Th - Saga BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "dragon-the-bruce-lee-story",
+      "titulo": "Dragon - The Bruce Lee Story",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta e ação inspirado na vida e na carreira de Bruce Lee, com combates contra diversos adversários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20-%20The%20Bruce%20Lee%20Story%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20-%20The%20Bruce%20Lee%20Story%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20-%20The%20Bruce%20Lee%20Story%20%28U%29.smc",
+      "arquivo": "Dragon - The Bruce Lee Story (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "pitfall-the-mayan-adventure",
+      "titulo": "Pitfall - The Mayan Adventure",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que o protagonista atravessa ruínas e selvas enfrentando inimigos, armadilhas e desafios.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Pitfall%20-%20The%20Mayan%20Adventure%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Pitfall%20-%20The%20Mayan%20Adventure%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Pitfall%20-%20The%20Mayan%20Adventure%20%28U%29.smc",
+      "arquivo": "Pitfall - The Mayan Adventure.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "flashback-the-quest-for-identity",
+      "titulo": "Flashback - The Quest for Identity",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma com foco em exploração, tiroteios e uma história de ficção científica envolvendo a identidade do protagonista.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Flashback%20-%20The%20Quest%20for%20Identity%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Flashback%20-%20The%20Quest%20for%20Identity%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Flashback%20-%20The%20Quest%20for%20Identity%20%28U%29.smc",
+      "arquivo": "Flashback - The Quest for Identity (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "inindo-way-of-the-ninja",
+      "titulo": "Inindo - Way of the Ninja",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura ambientado no Japão feudal, combinando exploração, batalhas e desenvolvimento do personagem.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Inindo%20-%20Way%20of%20the%20Ninja%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Inindo%20-%20Way%20of%20the%20Ninja%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Inindo%20-%20Way%20of%20the%20Ninja%20%28J%29.smc",
+      "arquivo": "Inindo - Way of the Ninja.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ranma-1-2-akanekodan-teki-hihou",
+      "titulo": "Ranma 1-2 - Akanekodan Teki Hihou",
+      "sistema": "SNES",
+      "descricao": "Aventura baseada em Ranma ½, com personagens da série enfrentando inimigos e situações inspiradas no universo do anime.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ranma%201-2%20-%20Akanekodan%20Teki%20Hihou%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ranma%201-2%20-%20Akanekodan%20Teki%20Hihou%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ranma%201-2%20-%20Akanekodan%20Teki%20Hihou%20%28J%29.smc",
+      "arquivo": "Ranma 1-2 - Akanekodan Teki Hihou (Japan).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "actraiser-2",
+      "titulo": "ActRaiser 2",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que um guerreiro divino enfrenta criaturas demoníacas em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/ActRaiser%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/ActRaiser%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/ActRaiser%202%20%28U%29.smc",
+      "arquivo": "ActRaiser 2 (U).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "paperboy-2",
+      "titulo": "Paperboy 2",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação em que o personagem entrega jornais pelas ruas enquanto evita obstáculos, acidentes e moradores.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Paperboy%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Paperboy%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Paperboy%202%20%28U%29.smc",
+      "arquivo": "Paperboy 2.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "firepower-2000",
+      "titulo": "Firepower 2000",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro com veículos em que o jogador enfrenta forças inimigas em fases cheias de disparos, obstáculos e chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Firepower%202000%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Firepower%202000%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Firepower%202000%20%28U%29.smc",
+      "arquivo": "Firepower 2000 (USA).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "alien-3",
+      "titulo": "Alien 3",
+      "sistema": "SNES",
+      "descricao": "Ação e exploração inspiradas no filme Alien 3, com o protagonista enfrentando criaturas alienígenas em ambientes perigosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Alien%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Alien%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Alien%203%20%28U%29.smc",
+      "arquivo": "Alien 3 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "3-ninjas-kick-back",
+      "titulo": "3 Ninjas Kick Back",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma baseada no filme, com os jovens ninjas enfrentando inimigos e atravessando diferentes cenários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/3%20Ninjas%20Kick%20Back%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/3%20Ninjas%20Kick%20Back%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/3%20Ninjas%20Kick%20Back%20%28U%29.smc",
+      "arquivo": "3 Ninjas Kick Back (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "space-ace",
+      "titulo": "Space Ace",
+      "sistema": "SNES",
+      "descricao": "Aventura de ficção científica em que o jogador controla Ace em uma missão para enfrentar o vilão Borf e salvar a Terra.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Space%20Ace%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Space%20Ace%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Space%20Ace%20%28U%29.smc",
+      "arquivo": "Space Ace (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "last-action-hero",
+      "titulo": "Last Action Hero",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação inspirado no filme, com combates, perseguições e fases baseadas nas aventuras do protagonista.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Last%20Action%20Hero%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Last%20Action%20Hero%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Last%20Action%20Hero%20%28U%29.smc",
+      "arquivo": "Last Action Hero.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "super-aleste",
+      "titulo": "Super Aleste",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro espacial com rolagem vertical, grande quantidade de inimigos, armas variadas e batalhas contra chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Aleste%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Aleste%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Aleste%20%28E%29.smc",
+      "arquivo": "Super Aleste.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "captain-america-and-the-avengers",
+      "titulo": "Captain America and The Avengers",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação em que heróis da Marvel enfrentam vilões e hordas de inimigos em diferentes fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20America%20and%20The%20Avengers%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Captain%20America%20and%20The%20Avengers%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Captain%20America%20and%20The%20Avengers%20%28U%29.smc",
+      "arquivo": "Captain America and The Avengers (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "king-arthur",
+      "titulo": "King Arthur",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e fantasia com combates contra inimigos e criaturas em cenários inspirados nas lendas do Rei Arthur.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/King%20Arthur%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/King%20Arthur%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/King%20Arthur%20%26%20The%20Knights%20of%20Justice%20%28U%29.smc",
+      "arquivo": "King Arthur [BR].smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "cybernator-br",
+      "titulo": "Cybernator BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Cybernator, jogo de ação com mechas em que o jogador combate forças inimigas usando um robô de guerra.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Cybernator%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Cybernator%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Cybernator%20%28U%29.smc",
+      "arquivo": "Cybernator BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "super-metroid-br",
+      "titulo": "Super_Metroid BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Super Metroid, aventura de exploração e ação protagonizada por Samus Aran no planeta Zebes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super_Metroid%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super_Metroid%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Metroid%20%28E%29.smc",
+      "arquivo": "Super_Metroid BR.smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "dragon-ball-z-a-lenda-dos-sayaji",
+      "titulo": "Dragon Ball Z - A lenda dos sayaji",
+      "sistema": "SNES",
+      "descricao": "Jogo baseado em Dragon Ball Z, com combates e personagens da série enfrentando diferentes adversários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20-%20A%20lenda%20dos%20sayaji%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20-%20A%20lenda%20dos%20sayaji%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20-%20A%20lenda%20dos%20sayaji%20%28U%29.smc",
+      "arquivo": "Dragon Ball Z - A lenda dos sayaji.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "dragon-ball-z-hyper-dimension",
+      "titulo": "Dragon Ball Z - Hyper Dimension",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta de Dragon Ball Z com combates entre personagens da série e golpes especiais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20-%20Hyper%20Dimension%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20-%20Hyper%20Dimension%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20-%20Hyper%20Dimension%20%28U%29.smc",
+      "arquivo": "Dragon Ball Z - Hyper Dimension (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "dragon-ball-z-super-butoden",
+      "titulo": "Dragon Ball Z - Super Butoden",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta baseado em Dragon Ball Z, com batalhas entre personagens e técnicas especiais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20-%20Super%20Butoden%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20-%20Super%20Butoden%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20-%20Super%20Butoden%20%28U%29.smc",
+      "arquivo": "Dragon Ball Z - Super Butoden.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "dragon-ball-z-ultime-menace-f",
+      "titulo": "Dragon Ball Z - Ultime Menace (F)",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta baseado em Dragon Ball Z, com personagens da série enfrentando adversários em combates individuais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20-%20Ultime%20Menace%20%28F%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20-%20Ultime%20Menace%20%28F%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20-%20Ultime%20Menace%20%28F%29.smc",
+      "arquivo": "Dragon Ball Z - Ultime Menace (F) [T+Por].smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "dragon-ball-z-chou-saiya-densetsu",
+      "titulo": "Dragon Ball Z Chou Saiya Densetsu",
+      "sistema": "SNES",
+      "descricao": "RPG baseado em Dragon Ball Z, combinando exploração, evolução dos personagens e batalhas contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20Chou%20Saiya%20Densetsu%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20Chou%20Saiya%20Densetsu%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20Chou%20Saiya%20Densetsu%20%28U%29.smc",
+      "arquivo": "Dragon Ball Z Chou Saiya Densetsu (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "dragon-ball-z-super-butoden-3",
+      "titulo": "Dragon Ball Z Super Butoden 3",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta de Dragon Ball Z com diversos personagens, golpes especiais e combates em arenas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Ball%20Z%20Super%20Butoden%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Ball%20Z%20Super%20Butoden%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Ball%20Z%20Super%20Butoden%203%20%28U%29.smc",
+      "arquivo": "Dragon Ball Z Super Butoden 3 (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "ogre-battle-the-march-of-the-black-queen",
+      "titulo": "Ogre Battle - The March of the Black Queen",
+      "sistema": "SNES",
+      "descricao": "RPG de estratégia em que o jogador lidera unidades em batalhas e administra um exército durante uma campanha de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ogre%20Battle%20-%20The%20March%20of%20the%20Black%20Queen%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ogre%20Battle%20-%20The%20March%20of%20the%20Black%20Queen%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ogre%20Battle%20-%20The%20March%20of%20the%20Black%20Queen%20%28U%29.smc",
+      "arquivo": "Ogre Battle - The March of the Black Queen (USA).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "super-beach",
+      "titulo": "Super Beach",
+      "sistema": "SNES",
+      "descricao": "Jogo esportivo de praia com partidas rápidas e desafios inspirados em esportes praticados na areia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Beach%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Beach%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Beach%20%28U%29.smc",
+      "arquivo": "Super Beach (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "rushing-beat",
+      "titulo": "Rushing Beat",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação beat 'em up em que os personagens enfrentam grupos de inimigos durante uma sequência de fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rushing%20Beat%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Rushing%20Beat%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rushing%20Beat%20%28J%29.smc",
+      "arquivo": "Rushing Beat.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "daze-before-christmas",
+      "titulo": "Daze Before Christmas",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma natalina em que o Papai Noel atravessa fases enfrentando inimigos e obstáculos para salvar o Natal.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Daze%20Before%20Christmas%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Daze%20Before%20Christmas%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Daze%20Before%20Christmas%20%28U%29.smc",
+      "arquivo": "Daze Before Christmas (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "sky-blazer",
+      "titulo": "Sky Blazer",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma com combate, exploração e cenários de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Sky%20Blazer%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Sky%20Blazer%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Sky%20Blazer%20%28U%29.smc",
+      "arquivo": "Sky Blazer (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "super-bomberman-2",
+      "titulo": "Super Bomberman 2",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação em que Bomberman usa bombas para destruir blocos, derrotar inimigos e atravessar labirintos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Bomberman%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Bomberman%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Bomberman%202%20%28U%29.smc",
+      "arquivo": "Super Bomberman 2.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "jungle-book-the",
+      "titulo": "Jungle Book, The",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma inspirada em Mogli, que atravessa a selva enfrentando animais, obstáculos e outros perigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Jungle%20Book%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Jungle%20Book%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Jungle%20Book%2C%20The%20%28U%29.smc",
+      "arquivo": "Jungle Book, The.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "futebol-brasileiro-96-unl",
+      "titulo": "Futebol Brasileiro '96 (Unl)",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol com equipes e temática voltadas ao futebol brasileiro, oferecendo partidas e torneios.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Futebol%20Brasileiro%20%2796%20%28Unl%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Futebol%20Brasileiro%20%2796%20%28Unl%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Futebol%20Brasileiro%20%2796%20%28Unl%29.smc",
+      "arquivo": "Futebol Brasileiro '96 (Unl).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "blues-brothers-the",
+      "titulo": "Blues Brothers, The",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada nos Blues Brothers, com fases repletas de inimigos, obstáculos e desafios.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Blues%20Brothers%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Blues%20Brothers%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Blues%20Brothers%2C%20The%20%28U%29.smc",
+      "arquivo": "Blues Brothers, The.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "bugs-bunny-rabbit-rampage",
+      "titulo": "Bugs Bunny - Rabbit Rampage",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Bugs Bunny, que percorre fases enfrentando inimigos e armadilhas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bugs%20Bunny%20-%20Rabbit%20Rampage%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Bugs%20Bunny%20-%20Rabbit%20Rampage%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Bugs%20Bunny%20-%20Rabbit%20Rampage%20%28U%29.smc",
+      "arquivo": "Bugs Bunny - Rabbit Rampage (USA).sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "battle-cars",
+      "titulo": "Battle Cars",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida e combate em que veículos disputam circuitos enquanto enfrentam obstáculos e adversários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Battle%20Cars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Battle%20Cars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Battle%20Cars%20%28U%29.smc",
+      "arquivo": "Battle Cars.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "super-castlevania-iv-br",
+      "titulo": "Super Castlevania IV BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Super Castlevania IV, aventura de ação e plataforma protagonizada por Simon Belmont.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Castlevania%20IV%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Castlevania%20IV%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Castlevania%20IV%20%28U%29.smc",
+      "arquivo": "Super Castlevania IV BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "air-cavalry",
+      "titulo": "Air Cavalry",
+      "sistema": "SNES",
+      "descricao": "Jogo de combate aéreo em que o jogador pilota helicópteros em missões contra forças inimigas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Air%20Cavalry%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Air%20Cavalry%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Air%20Cavalry%20%28U%29.smc",
+      "arquivo": "Air Cavalry.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "great-circus-mystery-starring-mickey-minnie-the",
+      "titulo": "Great Circus Mystery Starring Mickey & Minnie, The",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma com Mickey e Minnie, que exploram cenários de circo em busca de pistas e enfrentam diversos obstáculos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Great%20Circus%20Mystery%20Starring%20Mickey%20%26%20Minnie%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Great%20Circus%20Mystery%20Starring%20Mickey%20%26%20Minnie%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Great%20Circus%20Mystery%20Starring%20Mickey%20%26%20Minnie%2C%20The%20%28U%29.smc",
+      "arquivo": "Great Circus Mystery Starring Mickey & Minnie, The (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "sim-city",
+      "titulo": "Sim City",
+      "sistema": "SNES",
+      "descricao": "Simulador de construção e administração de cidades em que o jogador planeja bairros, serviços, estradas e infraestrutura.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Sim%20City%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Sim%20City%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Sim%20City%20%28U%29.smc",
+      "arquivo": "Sim City (BR).smc",
+      "tamanho": "512 KB"
+    },
+    {
+      "id": "iron-commando-koutetsu-no-senshi",
+      "titulo": "Iron Commando - Koutetsu no Senshi",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up de ação em que soldados enfrentam grupos de inimigos em uma série de fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Iron%20Commando%20-%20Koutetsu%20no%20Senshi%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Iron%20Commando%20-%20Koutetsu%20no%20Senshi%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Iron%20Commando%20-%20Koutetsu%20no%20Senshi%20%28J%29.smc",
+      "arquivo": "Iron Commando - Koutetsu no Senshi (Japan).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "captain-commando-br",
+      "titulo": "Captain Commando BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Captain Commando, beat 'em up de ação com heróis enfrentando criminosos e mutantes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Commando%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Captain%20Commando%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Captain%20Commando%20%28U%29.smc",
+      "arquivo": "Captain Commando BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "snoopy-concert",
+      "titulo": "Snoopy Concert",
+      "sistema": "SNES",
+      "descricao": "Aventura baseada em Snoopy e nos personagens de Peanuts, com situações interativas e desafios envolvendo o grupo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Snoopy%20Concert%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Snoopy%20Concert%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Snoopy%20Concert%20%28U%29.smc",
+      "arquivo": "Snoopy Concert (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "spell-craft",
+      "titulo": "Spell Craft",
+      "sistema": "SNES",
+      "descricao": "Jogo de aventura e fantasia centrado em magia, exploração e desafios em um mundo fantástico.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Spell%20Craft%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Spell%20Craft%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Spell%20Craft%20%28U%29.smc",
+      "arquivo": "Spell Craft (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "world-cup-france-98",
+      "titulo": "World Cup France 98",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol baseado na Copa do Mundo de 1998, com seleções e partidas inspiradas no torneio.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/World%20Cup%20France%2098%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/World%20Cup%20France%2098%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/World%20Cup%20France%2098%20%28U%29.smc",
+      "arquivo": "World Cup France 98 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "seiken-densetsu-3",
+      "titulo": "Seiken Densetsu 3",
+      "sistema": "SNES",
+      "descricao": "RPG de ação com vários protagonistas, exploração de um mundo fantástico e combates em tempo real.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Seiken%20Densetsu%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Seiken%20Densetsu%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Seiken%20Densetsu%203%20%28U%29.smc",
+      "arquivo": "Seiken Densetsu 3 (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "radical-dreamers",
+      "titulo": "Radical Dreamers",
+      "sistema": "SNES",
+      "descricao": "Aventura narrativa com elementos de ficção científica e fantasia, focada em exploração, escolhas e acontecimentos misteriosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Radical%20Dreamers%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Radical%20Dreamers%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Radical%20Dreamers%20%20%28U%29.smc",
+      "arquivo": "Radical Dreamers (PT-BR).sfc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "power-drive",
+      "titulo": "Power Drive",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida com carros e pistas variadas, focado em velocidade, controle e disputa contra outros pilotos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Power%20Drive%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Power%20Drive%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Power%20Drive%20%28E%29.smc",
+      "arquivo": "Power Drive (Europe).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "daffy-duck-the-marvin-missions",
+      "titulo": "Daffy Duck - The Marvin Missions",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Daffy Duck, que enfrenta Marvin e seus planos em diferentes fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Daffy%20Duck%20-%20The%20Marvin%20Missions%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Daffy%20Duck%20-%20The%20Marvin%20Missions%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Daffy%20Duck%20-%20The%20Marvin%20Missions%20%28U%29.smc",
+      "arquivo": "Daffy Duck - The Marvin Missions (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ignition-factor-the",
+      "titulo": "Ignition Factor, The",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e resgate em que o protagonista enfrenta incêndios, perigos e obstáculos para salvar pessoas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ignition%20Factor%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ignition%20Factor%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ignition%20Factor%2C%20The%20%28U%29.smc",
+      "arquivo": "Ignition Factor, The (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "addams-family",
+      "titulo": "Addams Family",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada na Família Addams, com exploração de uma mansão repleta de inimigos e armadilhas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Addams%20Family%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Addams%20Family%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Addams%20Family%20%28U%29.smc",
+      "arquivo": "Addams Family (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "addams-family-the-pugsley-s-scavenger-hunt",
+      "titulo": "Addams Family, The - Pugsley's Scavenger Hunt",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma protagonizada por Pugsley, que percorre cenários da Família Addams em busca de objetos e soluções.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Addams%20Family%2C%20The%20-%20Pugsley%27s%20Scavenger%20Hunt%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Addams%20Family%2C%20The%20-%20Pugsley%27s%20Scavenger%20Hunt%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Addams%20Family%2C%20The%20-%20Pugsley%27s%20Scavenger%20Hunt%20%28U%29.smc",
+      "arquivo": "Addams Family, The - Pugsley's Scavenger Hunt (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "final-fantasy-2",
+      "titulo": "Final Fantasy 2",
+      "sistema": "SNES",
+      "descricao": "RPG clássico com exploração, personagens e batalhas por turnos em uma aventura de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fantasy%202%20%28U%29.smc",
+      "arquivo": "Final Fantasy 2 (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "final-fantasy-3",
+      "titulo": "Final Fantasy 3",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com exploração, evolução de personagens e batalhas por turnos durante uma grande jornada.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fantasy%203%20%28U%29.smc",
+      "arquivo": "Final Fantasy 3 (BR).smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "final-fantasy-4",
+      "titulo": "Final Fantasy 4",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia centrado em Cecil e seus companheiros, com exploração, história dramática e batalhas por turnos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%204%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%204%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fantasy%204%20%28U%29.smc",
+      "arquivo": "Final Fantasy 4 (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "final-fantasy-5",
+      "titulo": "Final Fantasy 5",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com sistema de empregos que permite personalizar as habilidades dos personagens durante a aventura.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%205%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%205%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fantasy%205%20%28U%29.smc",
+      "arquivo": "Final Fantasy 5 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "final-fantasy-6",
+      "titulo": "Final Fantasy 6",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com grande elenco de personagens, exploração, batalhas por turnos e uma história envolvendo magia e tecnologia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fantasy%206%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fantasy%206%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fantasy%206%20%28U%29.smc",
+      "arquivo": "Final Fantasy 6 (BR).smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "final-fight",
+      "titulo": "Final Fight",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up clássico em que os personagens atravessam Metro City enfrentando gangues e criminosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fight%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fight%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fight%20%28U%29.smc",
+      "arquivo": "Final Fight (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "final-fight-2",
+      "titulo": "Final Fight 2",
+      "sistema": "SNES",
+      "descricao": "Sequência de Final Fight com novos personagens, fases de combate e inimigos espalhados por diferentes cidades.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fight%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fight%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fight%202%20%28U%29.smc",
+      "arquivo": "Final Fight 2 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "final-fight-3",
+      "titulo": "Final Fight 3",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up em que os heróis enfrentam novamente uma organização criminosa através de várias fases de combate.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fight%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fight%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fight%203%20%20%28U%29.smc",
+      "arquivo": "Final Fight 3 (PT_BR).sfc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "final-fight-guy",
+      "titulo": "Final Fight Guy",
+      "sistema": "SNES",
+      "descricao": "Versão de Final Fight centrada em Guy, com combate corpo a corpo contra gangues e criminosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Final%20Fight%20Guy%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Final%20Fight%20Guy%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Final%20Fight%20Guysmc",
+      "arquivo": "Final Fight Guy (BR) v0.98.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "super-street-fighter-2-the-new-challengers-br",
+      "titulo": "Super Street Fighter 2 - The New Challengers, Br",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Super Street Fighter II, com novos lutadores, golpes especiais e combates de artes marciais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Street%20Fighter%202%20-%20The%20New%20Challengers%2C%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Street%20Fighter%202%20-%20The%20New%20Challengers%2C%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Street%20Fighter%20II%20-%20The%20New%20Challengers%20%28U%29.smc",
+      "arquivo": "Super Street Fighter 2 - The New Challengers, Br.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "street-fighter-2-the-world-warrior-br",
+      "titulo": "Street-Fighter-2-The-World-Warrior Br",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Street Fighter II: The World Warrior, clássico jogo de luta com diferentes lutadores.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Street-Fighter-2-The-World-Warrior%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Street-Fighter-2-The-World-Warrior%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Street%20Fighter%20II%20-%20The%20World%20Warrior%20%28U%29.smc",
+      "arquivo": "Street-Fighter-2-The-World-Warrior Br.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "street-fighter-ii",
+      "titulo": "Street Fighter II",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta em que personagens de diferentes estilos se enfrentam usando golpes normais e técnicas especiais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Street%20Fighter%20II%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Street%20Fighter%20II%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Street%20Fighter%20II%20%28U%29.smc",
+      "arquivo": "Street Fighter II (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "street-fighter-ii-turbo",
+      "titulo": "Street Fighter II Turbo",
+      "sistema": "SNES",
+      "descricao": "Versão acelerada de Street Fighter II com combates mais rápidos, personagens variados e golpes especiais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Street%20Fighter%20II%20Turbo%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Street%20Fighter%20II%20Turbo%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Street%20Fighter%20II%20Turbo%20-%20Hyper%20Fighting%20%28U%29.smc",
+      "arquivo": "Street Fighter II Turbo.smc",
+      "tamanho": "2.5 MB"
+    },
+    {
+      "id": "aero-fighters-br",
+      "titulo": "Aero Fighters Br",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro vertical em que aviões enfrentam ondas de inimigos e grandes chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Aero%20Fighters%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Aero%20Fighters%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Aero%20Fighters%20%28U%29.smc",
+      "arquivo": "Aero Fighters Br.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "star-fox-br",
+      "titulo": "Star Fox BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Star Fox, jogo de combate espacial em que a equipe Star Fox enfrenta forças inimigas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Star%20Fox%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Star%20Fox%20%28U%29.smc",
+      "arquivo": "Star Fox BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "inspector-gadget",
+      "titulo": "Inspector Gadget",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada no Inspetor Bugiganga, que usa seus dispositivos para atravessar fases e enfrentar inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Inspector%20Gadget%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Inspector%20Gadget%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Inspector%20Gadget%20%28U%29.smc",
+      "arquivo": "Inspector Gadget (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "ninja-gaiden-trilogy",
+      "titulo": "Ninja Gaiden Trilogy",
+      "sistema": "SNES",
+      "descricao": "Coletânea com três aventuras de ação e plataforma protagonizadas pelo ninja Ryu Hayabusa.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ninja%20Gaiden%20Trilogy%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ninja%20Gaiden%20Trilogy%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ninja%20Gaiden%20Trilogy%20%28U%29.smc",
+      "arquivo": "Ninja Gaiden Trilogy (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "top-gear",
+      "titulo": "Top Gear",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida arcade com carros velozes, pistas variadas e disputas contra adversários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Gear%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Top%20Gear%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Top%20Gear%20%28U%29.smc",
+      "arquivo": "Top Gear (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "top-gear-2",
+      "titulo": "Top Gear 2",
+      "sistema": "SNES",
+      "descricao": "Sequência de Top Gear com novas pistas, carros e desafios de corrida em diferentes ambientes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Gear%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Top%20Gear%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Top%20Gear%202%20%28U%29.smc",
+      "arquivo": "Top Gear 2.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "go-go-ackman",
+      "titulo": "Go Go Ackman",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Ackman, que enfrenta inimigos em um mundo inspirado em mangá e fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Go%20Go%20Ackman%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Go%20Go%20Ackman%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Go%20Go%20Ackman%20%28U%29.smc",
+      "arquivo": "Go Go Ackman (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "strike-gunner",
+      "titulo": "Strike Gunner",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro vertical em que o jogador controla uma aeronave e enfrenta forças inimigas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Strike%20Gunner%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Strike%20Gunner%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Strike%20Gunner%20%28U%29.smc",
+      "arquivo": "Strike Gunner.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "harley-s-humongous-adventure",
+      "titulo": "Harley's Humongous Adventure",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que Harley, transformado em um personagem minúsculo, percorre ambientes cotidianos enfrentando perigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Harley%27s%20Humongous%20Adventure%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Harley%27s%20Humongous%20Adventure%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Harley%27s%20Humongous%20Adventure%20%28U%29.smc",
+      "arquivo": "Harley's Humongous Adventure (USA).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "choplifter-iii",
+      "titulo": "Choplifter III",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação com helicóptero em que o jogador precisa resgatar pessoas enquanto enfrenta forças inimigas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Choplifter%20III%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Choplifter%20III%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Choplifter%20III%20%28U%29.smc",
+      "arquivo": "Choplifter III (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "gradius-iii",
+      "titulo": "Gradius III",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro espacial com rolagem lateral, armas personalizáveis, inimigos variados e grandes chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Gradius%20III%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Gradius%20III%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Gradius%20III%20%28U%29.smc",
+      "arquivo": "Gradius III (USA).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "contra-iii",
+      "titulo": "Contra III",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e tiro em que soldados enfrentam hordas de inimigos, máquinas de guerra e chefes em fases intensas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Contra%20III%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Contra%20III%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Contra%20III%20%28U%29.smc",
+      "arquivo": "Contra III.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "the-ignition-factor",
+      "titulo": "The Ignition Factor",
+      "sistema": "SNES",
+      "descricao": "Jogo de resgate e ação em que o personagem combate incêndios e supera obstáculos para salvar vítimas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/The%20Ignition%20Factor%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/The%20Ignition%20Factor%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ignition%20Factor%2C%20The%20%28U%29.smc",
+      "arquivo": "The Ignition Factor.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "battletoads-in-battlemaniacs",
+      "titulo": "Battletoads In Battlemaniacs",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up estrelado pelos Battletoads, com combates contra inimigos e fases com desafios variados.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Battletoads%20In%20Battlemaniacs%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Battletoads%20In%20Battlemaniacs%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Battletoads%20In%20Battlemaniacs%20%28U%29.smc",
+      "arquivo": "Battletoads In Battlemaniacs (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "killer-instinct",
+      "titulo": "Killer Instinct",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta com personagens distintos, combos, golpes especiais e combates rápidos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Killer%20Instinct%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Killer%20Instinct%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Killer%20Instinct%20%28U%29.smc",
+      "arquivo": "Killer Instinct (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "fifa-international-soccer",
+      "titulo": "FIFA International Soccer",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol com seleções internacionais, partidas e competições inspiradas no esporte real.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/FIFA%20International%20Soccer%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/FIFA%20International%20Soccer%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/FIFA%20International%20Soccer%20%28U%29.smc",
+      "arquivo": "FIFA International Soccer (U).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "cutthroat-island",
+      "titulo": "Cutthroat Island",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e aventura baseado no filme, com combates, exploração e confrontos contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Cutthroat%20Island%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Cutthroat%20Island%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Cutthroat%20Island%20%28U%29.smc",
+      "arquivo": "Cutthroat Island (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "earthworm-jim-2",
+      "titulo": "Earthworm Jim 2",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Earthworm Jim, com fases surreais, inimigos e desafios variados.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Earthworm%20Jim%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Earthworm%20Jim%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Earthworm%20Jim%202%20%28U%29.smc",
+      "arquivo": "Earthworm Jim 2 (USA).sfc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "shin-kidou-senki-gundam-w-endless-duel",
+      "titulo": "Shin Kidou Senki Gundam W - Endless Duel",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta com mechas de Gundam Wing, apresentando combates entre diferentes Mobile Suits.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Shin%20Kidou%20Senki%20Gundam%20W%20-%20Endless%20Duel%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Shin%20Kidou%20Senki%20Gundam%20W%20-%20Endless%20Duel%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Shin%20Kidou%20Senki%20Gundam%20W%20-%20Endless%20Duel%20%28J%29.smc",
+      "arquivo": "Shin Kidou Senki Gundam W - Endless Duel (Japan).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "lion-king",
+      "titulo": "Lion King",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada em O Rei Leão, acompanhando Simba em diferentes momentos de sua jornada.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Lion%20King%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Lion%20King%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Lion%20King%20%28U%29.smc",
+      "arquivo": "Lion King (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "magic-knight-rayearth",
+      "titulo": "Magic Knight Rayearth",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura baseado no anime, com exploração, personagens e batalhas em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Magic%20Knight%20Rayearth%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Magic%20Knight%20Rayearth%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Magic%20Knight%20Rayearth%20%28U%29.smc",
+      "arquivo": "Magic Knight Rayearth (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "mortal-kombat",
+      "titulo": "Mortal Kombat",
+      "sistema": "SNES",
+      "descricao": "Jogo de Super Nintendo (SNES) traduzido para o português brasileiro: Mortal Kombat.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/3/33/Mortal_Kombat_cover.JPG",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mortal%20Kombat%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mortal%20Kombat%20%28U%29.smc",
+      "arquivo": "Mortal Kombat (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mortal-kombat-3-usa",
+      "titulo": "Mortal Kombat 3 (USA)",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta com personagens de Mortal Kombat, golpes especiais, fatalities e combates individuais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mortal%20Kombat%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mortal%20Kombat%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mortal%20Kombat%203%20%28U%29.smc",
+      "arquivo": "Mortal Kombat 3 (USA).sfc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "mortal-kombat-3",
+      "titulo": "Ultimate Mortal Kombat 3",
+      "sistema": "SNES",
+      "descricao": "Versão expandida de Mortal Kombat 3 com elenco ampliado, novos movimentos e combates mais variados.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ultimate%20Mortal%20Kombat%203%20(USA).png",
+      "fotos": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS89iUo7aANfp0sRcjff-grHbUl3s3gjHKasMdSq1tHr8ryXN088xlhGmQ4Cz_Ilee7Cf9yRgcGGGE2nSq-9sx0HXRdRNgWyXLaNPhdD6rX0rDb00cxZ-gVXWulJoxxthpxsbrJ35AB-M/s1600/UMK3+2.png",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsEfkDRe-taMYv1jUAraWb5ozn96so3uzXr2mrg9nhCFrghxh4GbZhkAS3SXwLyfms6dmeT1rOpGQnKl1tyr0HrqpRvgH_DOuyDyWkKMG6YgQ0icctLjyKQ0E3DLsMMFJGKkj5lvffw38/s1600/UMK3+3.png",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOz9zuq7GtRpo47nwbHaj45HTw_07CrCVU0n2MJp_v-kREauki_GbdV3R-E-w14ic311E0rGY_DOjx9ACwK1g7LDZf1N1X7Af3HAX9C47o56NPA_ECkRaH32IqoiHLld-Hp_R2zCjz3jE/s1600/UMK3+GENESIS.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ultimate%20Mortal%20Kombat%203%20%28U%29.smc",
+      "arquivo": "Ultimate Mortal Kombat 3.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "mortal-kombat-ii",
+      "titulo": "Mortal Kombat II",
+      "sistema": "SNES",
+      "descricao": "Clássico jogo de luta com personagens, golpes especiais, fatalities e combates em diferentes arenas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mortal%20Kombat%20II%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mortal%20Kombat%20II%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mortal%20Kombat%20II%20%28U%29.smc",
+      "arquivo": "Mortal Kombat II.smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "donkey-kong-country",
+      "titulo": "Donkey Kong Country",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Donkey Kong e Diddy Kong, com fases de floresta, cavernas e outros ambientes.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Donkey%20Kong%20Country%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Donkey%20Kong%20Countrysmc",
+      "arquivo": "Donkey Kong Country (BR) v1.00.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "donkey-kong-country-2-diddy-s-kong-quest",
+      "titulo": "Donkey Kong Country 2 (Diddy's Kong Quest)",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que Diddy e Dixie Kong atravessam a ilha dos Kremlings para resgatar Donkey Kong.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Donkey%20Kong%20Country%202%20%28Diddy%27s%20Kong%20Quest%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Donkey%20Kong%20Country%202%20%28Diddy%27s%20Kong%20Quest%29%20%28U%29.smc",
+      "arquivo": "Donkey Kong Country 2 (Diddy's Kong Quest) (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "dragon-s-lair",
+      "titulo": "Dragon's Lair",
+      "sistema": "SNES",
+      "descricao": "Aventura interativa em estilo animação, na qual Dirk precisa superar perigos para resgatar a princesa Daphne.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%27s%20Lair%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%27s%20Lair%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%27s%20Lair%20%28U%29.smc",
+      "arquivo": "Dragon's Lair (USA).sfc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "the-legend-of-zelda-link-to-past-br",
+      "titulo": "The Legend of Zelda - Link to Past BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de A Link to the Past, aventura de exploração em que Link enfrenta inimigos e resolve quebra-cabeças.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/The%20Legend%20of%20Zelda%20-%20Link%20to%20Past%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/The%20Legend%20of%20Zelda%20-%20Link%20to%20Past%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28U%29.smc",
+      "arquivo": "The Legend of Zelda - Link to Past BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "true-lies",
+      "titulo": "True Lies",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado no filme, com tiroteios, exploração e missões contra organizações criminosas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/True%20Lies%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/True%20Lies%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/True%20Lies%20%28U%29.smc",
+      "arquivo": "True Lies (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "nba-live-95",
+      "titulo": "NBA Live '95",
+      "sistema": "SNES",
+      "descricao": "Jogo de basquete com equipes da NBA, partidas e modos esportivos inspirados na temporada de 1994–95.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/NBA%20Live%20%2795%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/NBA%20Live%20%2795%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/NBA%20Live%20%2795%20%28U%29.smc",
+      "arquivo": "NBA Live '95 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "brain-lord",
+      "titulo": "Brain Lord",
+      "sistema": "SNES",
+      "descricao": "RPG de ação com exploração de masmorras, quebra-cabeças e combates em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Brain%20Lord%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Brain%20Lord%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Brain%20Lord%20%28U%29.smc",
+      "arquivo": "Brain Lord (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "demolition-man",
+      "titulo": "Demolition Man",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado no filme, com tiroteios e fases inspiradas na perseguição ao criminoso Simon Phoenix.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Demolition%20Man%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Demolition%20Man%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Demolition%20Man%20%28U%29.smc",
+      "arquivo": "Demolition Man (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mega-man-7",
+      "titulo": "Mega Man 7",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que Mega Man enfrenta novos robôs e o retorno de Dr. Wily.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%207%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%207%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%207%20%28U%29.smc",
+      "arquivo": "Mega Man 7 (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mega-man-7-2",
+      "titulo": "Mega Man 7",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que Mega Man enfrenta novos robôs e o retorno de Dr. Wily.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%207%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%207%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%207%20%28U%29.smc",
+      "arquivo": "Mega Man 7.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mega-man-x",
+      "titulo": "Mega Man X",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que X combate Mavericks, obtém novas habilidades e enfrenta chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%20X%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X%20%28U%29.smc",
+      "arquivo": "Mega Man X (BR).smc",
+      "tamanho": "1.5 MB"
+    },
+    {
+      "id": "mega-man-x-2",
+      "titulo": "Mega Man X",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que X combate Mavericks, obtém novas habilidades e enfrenta chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%20X%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X%20%28U%29.smc",
+      "arquivo": "Mega Man X (USA).smc",
+      "tamanho": "1.5 MB"
+    },
+    {
+      "id": "mega-man-x-2-br",
+      "titulo": "Mega Man X 2 BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Mega Man X2, continuação da aventura de X contra uma nova ameaça de Mavericks.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%202%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%20X%202%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X%202%20%28U%29.smc",
+      "arquivo": "Mega Man X 2 BR.smc",
+      "tamanho": "1.5 MB"
+    },
+    {
+      "id": "mega-man-3-x",
+      "titulo": "Mega Man 3 X",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação baseada no universo Mega Man X, com plataformas, armas e batalhas contra chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%203%20X%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%203%20X%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X%203%20%28U%29.smc",
+      "arquivo": "Mega Man 3 X.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mega-man-x2",
+      "titulo": "Mega Man X2",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que X enfrenta os X-Hunters e novos Mavericks.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X2%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%20X2%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X2%20%28U%29.smc",
+      "arquivo": "Mega Man X2 (USA).smc",
+      "tamanho": "1.5 MB"
+    },
+    {
+      "id": "mega-man-x3",
+      "titulo": "Mega Man X3",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma em que X enfrenta Mavericks mais poderosos e pode contar com Zero em determinadas situações.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X3%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mega%20Man%20X3%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mega%20Man%20X3%20%28U%29.smc",
+      "arquivo": "Mega Man X3 (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mickey-mania",
+      "titulo": "Mickey Mania",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma que leva Mickey por fases inspiradas em diferentes períodos de sua história nos desenhos animados.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mickey%20Mania%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mickey%20Mania%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28U%29.smc",
+      "arquivo": "Mickey Mania (BR).swc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "mickey-mania-the-timeless-adventures-of-mickey-mouse",
+      "titulo": "Mickey Mania - The Timeless Adventures of Mickey Mouse",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que Mickey percorre versões de seus desenhos clássicos através de diferentes épocas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28U%29.smc",
+      "arquivo": "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).swc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "super-mario-all-stars",
+      "titulo": "Super Mario All-Stars",
+      "sistema": "SNES",
+      "descricao": "Coletânea com versões aprimoradas de clássicos jogos de plataforma do universo Super Mario.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20All-Stars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Mario%20All-Stars%20%28U%29.smc",
+      "arquivo": "Super Mario All-Stars (PT-BR) - [snesforever.com.br].sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "super-mario-rpg-legend-of-the-seven-stars",
+      "titulo": "Super Mario RPG - Legend of the Seven Stars",
+      "sistema": "SNES",
+      "descricao": "RPG de Mario que combina exploração, humor e batalhas por turnos em uma aventura contra uma nova ameaça.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28U%29.smc",
+      "arquivo": "Super Mario RPG - Legend of the Seven Stars (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "super-mario-world-br",
+      "titulo": "Super Mario World Br",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Super Mario World, aventura de plataforma em que Mario e Luigi exploram o mundo dos dinossauros.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20World%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Mario%20World%20%28U%29.smc",
+      "arquivo": "Super Mario World Br.smc",
+      "tamanho": "512 KB"
+    },
+    {
+      "id": "super-mario-world-2-yoshi-s-island",
+      "titulo": "Super Mario World 2 Yoshi's Island",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma protagonizada por Yoshi, que precisa proteger o bebê Mario enquanto atravessa diferentes fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%202%20Yoshi%27s%20Island%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Mario%20World%202%20Yoshi%27s%20Island%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Mario%20World%202%20-%20Yoshi%27s%20Island%20%28U%29%20%28M3%29%20%28V1.1%29.smc",
+      "arquivo": "Super Mario World 2 Yoshi's Island (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "the-mask",
+      "titulo": "The Mask",
+      "sistema": "SNES",
+      "descricao": "Jogo de plataforma baseado no personagem O Máskara, com poderes especiais e combates contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/The%20Mask%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/The%20Mask%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/The%20Mask%20%28U%29.smc",
+      "arquivo": "The Mask (BR).sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "biker-mice-from-mars",
+      "titulo": "Biker Mice From Mars",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida baseado em Biker Mice from Mars, com motos, pistas e personagens da série.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Biker%20Mice%20From%20Mars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Biker%20Mice%20From%20Mars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Biker%20Mice%20From%20Mars%20%28U%29.smc",
+      "arquivo": "Biker Mice From Mars (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "front-mission",
+      "titulo": "Front Mission",
+      "sistema": "SNES",
+      "descricao": "RPG de estratégia com batalhas entre mechas, gerenciamento de unidades e uma história militar.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Front%20Mission%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Front%20Mission%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Front%20Mission%20%28J%29.smc",
+      "arquivo": "Front Mission (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "rocko-s-modern-life-spunky-s-dangerous-day",
+      "titulo": "Rocko's Modern Life - Spunky's Dangerous Day",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada em Rocko's Modern Life, com Rocko procurando seu cachorro Spunky em diferentes cenários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rocko%27s%20Modern%20Life%20-%20Spunky%27s%20Dangerous%20Day%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Rocko%27s%20Modern%20Life%20-%20Spunky%27s%20Dangerous%20Day%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rocko%27s%20Modern%20Life%20-%20Spunky%27s%20Dangerous%20Day%20%28U%29.smc",
+      "arquivo": "Rocko's Modern Life - Spunky's Dangerous Day.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "harvest-moon",
+      "titulo": "Harvest Moon",
+      "sistema": "SNES",
+      "descricao": "Simulação de fazenda em que o jogador cultiva plantações, cuida de animais, administra recursos e desenvolve relacionamentos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Harvest%20Moon%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Harvest%20Moon%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Harvest%20Moon%20%28U%29.smc",
+      "arquivo": "Harvest Moon (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "super-morph",
+      "titulo": "Super Morph",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e plataforma com transformação do personagem, exploração de fases e combate contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Morph%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Morph%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Morph%20%28E%29.smc",
+      "arquivo": "Super Morph.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "mickey-mouse-the-magical-quest",
+      "titulo": "Mickey Mouse - The Magical Quest",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que Mickey usa diferentes roupas mágicas para enfrentar inimigos e atravessar fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mickey%20Mouse%20-%20The%20Magical%20Quest%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mickey%20Mouse%20-%20The%20Magical%20Quest%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mickey%20Mouse%20-%20The%20Magical%20Quest%20%28U%29.smc",
+      "arquivo": "Mickey Mouse - The Magical Quest (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "teenage-mutant-ninja-turtles-tournament-fighters",
+      "titulo": "Teenage Mutant Ninja Turtles - Tournament Fighters",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta com as Tartarugas Ninja e outros personagens da série em combates individuais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Teenage%20Mutant%20Ninja%20Turtles%20-%20Tournament%20Fighters%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Teenage%20Mutant%20Ninja%20Turtles%20-%20Tournament%20Fighters%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Teenage%20Mutant%20Ninja%20Turtles%20-%20Tournament%20Fighters%20%28U%29.smc",
+      "arquivo": "Teenage Mutant Ninja Turtles - Tournament Fighters.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "teenage-mutant-ninja-turtles-iv-turtles-in-time",
+      "titulo": "Teenage Mutant Ninja Turtles IV Turtles In Time",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up em que as Tartarugas Ninja viajam através do tempo para enfrentar inimigos e salvar seus amigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Teenage%20Mutant%20Ninja%20Turtles%20IV%20Turtles%20In%20Time%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Teenage%20Mutant%20Ninja%20Turtles%20IV%20Turtles%20In%20Time%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Teenage%20Mutant%20Ninja%20Turtles%20IV%20-%20Turtles%20in%20Time%20%28U%29.smc",
+      "arquivo": "Teenage Mutant Ninja Turtles IV Turtles In Time.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "tenchi-muyou-game-hen",
+      "titulo": "Tenchi Muyou! Game Hen",
+      "sistema": "SNES",
+      "descricao": "Jogo baseado em Tenchi Muyo!, com personagens da série envolvidos em uma aventura interativa.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tenchi%20Muyou%21%20Game%20Hen%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Tenchi%20Muyou%21%20Game%20Hen%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Tenchi%20Muyou%21%20Game%20Hen%20%28J%29.smc",
+      "arquivo": "Tenchi Muyou! Game Hen (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "scooby-doo-mystery",
+      "titulo": "Scooby-Doo Mystery",
+      "sistema": "SNES",
+      "descricao": "Aventura de investigação em que Scooby-Doo e Salsicha procuram pistas, resolvem mistérios e enfrentam situações assustadoras.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Scooby-Doo%20Mystery%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Scooby-Doo%20Mystery%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Scooby-Doo%20Mystery%20%28U%29.smc",
+      "arquivo": "Scooby-Doo Mystery (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "rock-n-roll-racing",
+      "titulo": "Rock N' Roll Racing",
+      "sistema": "SNES",
+      "descricao": "Corrida de combate em que veículos usam armas e itens para superar adversários em pistas de diferentes planetas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Rock%20N%27%20Roll%20Racing%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Rock%20N%27%20Roll%20Racing%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Rock%20N%27%20Roll%20Racing%20%28U%29.smc",
+      "arquivo": "Rock N' Roll Racing (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "ranma-nibunnoichi-akanekodan-teki-hihou-br",
+      "titulo": "Ranma Nibunnoichi - Akanekodan Teki Hihou BR",
+      "sistema": "SNES",
+      "descricao": "Aventura baseada em Ranma ½, com personagens da série enfrentando inimigos e desafios em uma história de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ranma%20Nibunnoichi%20-%20Akanekodan%20Teki%20Hihou%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ranma%20Nibunnoichi%20-%20Akanekodan%20Teki%20Hihou%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ranma%20Nibunnoichi%20-%20Akanekodan%20Teki%20Hihou%20%28J%29.smc",
+      "arquivo": "Ranma Nibunnoichi - Akanekodan Teki Hihou BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "saturday-night-slam-masters",
+      "titulo": "Saturday Night Slam Masters",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta livre com personagens variados, agarrões, golpes especiais e combates em arenas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Saturday%20Night%20Slam%20Masters%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Saturday%20Night%20Slam%20Masters%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Saturday%20Night%20Slam%20Masters%20%28U%29.smc",
+      "arquivo": "Saturday Night Slam Masters.smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "winter-olympic-games-lillehammer-94",
+      "titulo": "Winter Olympic Games - Lillehammer '94",
+      "sistema": "SNES",
+      "descricao": "Jogo esportivo baseado nos Jogos Olímpicos de Inverno de Lillehammer, com várias modalidades disputadas na neve e no gelo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Winter%20Olympic%20Games%20-%20Lillehammer%20%2794%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Winter%20Olympic%20Games%20-%20Lillehammer%20%2794%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Winter%20Olympic%20Games%20-%20Lillehammer%20%2794%20%28U%29%20%28M8%29.smc",
+      "arquivo": "Winter Olympic Games - Lillehammer '94.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "jurassic-park-2-e",
+      "titulo": "Jurassic Park 2 (E)",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação baseada no universo de Jurassic Park, com exploração e confrontos contra dinossauros.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Jurassic%20Park%202%20%28E%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Jurassic%20Park%202%20%28E%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Jurassic%20Park%202%20%28E%29%5BPORT%5D.smc",
+      "arquivo": "Jurassic Park 2 (E)[PORT].smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ghoul-patrol",
+      "titulo": "Ghoul Patrol",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação em que os protagonistas enfrentam fantasmas, monstros e criaturas sobrenaturais em diferentes cenários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ghoul%20Patrol%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ghoul%20Patrol%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ghoul%20Patrol%20%28U%29.smc",
+      "arquivo": "Ghoul Patrol.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "side-pocket-pt-br",
+      "titulo": "Side Pocket pt br",
+      "sistema": "SNES",
+      "descricao": "Jogo de sinuca em que o jogador disputa partidas e desafios buscando completar as mesas com precisão.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Side%20Pocket%20pt%20br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Side%20Pocket%20pt%20br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Side%20Pocket%20pt%20%28U%29.smc",
+      "arquivo": "Side Pocket pt br.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "wonder-project",
+      "titulo": "Wonder Project",
+      "sistema": "SNES",
+      "descricao": "Aventura interativa com elementos de simulação, na qual o jogador orienta o desenvolvimento de um personagem em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Wonder%20Project%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Wonder%20Project%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Wonder%20Project%20J%20-%20Kikai%20no%20Shounen%20Pino%20%28J%29.smc",
+      "arquivo": "Wonder Project.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "stone-protectors",
+      "titulo": "Stone Protectors",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma protagonizada por personagens que enfrentam inimigos em busca de proteger seu mundo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Stone%20Protectors%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Stone%20Protectors%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Stone%20Protectors%20%28U%29.smc",
+      "arquivo": "Stone Protectors.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "dragon-quest-1-e-2",
+      "titulo": "Dragon Quest 1 e 2",
+      "sistema": "SNES",
+      "descricao": "Coletânea de dois RPGs clássicos da série Dragon Quest, com exploração, cidades, masmorras e batalhas por turnos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Dragon%20Quest%201%20e%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Dragon%20Quest%201%20e%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Dragon%20Quest%201%20e%202%20%28J%29.smc",
+      "arquivo": "Dragon Quest 1 e 2 (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "super-r-type",
+      "titulo": "Super R-Type",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro espacial com rolagem lateral, inimigos numerosos, armas especiais e grandes chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20R-Type%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20R-Type%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20R-Type%20%28U%29.smc",
+      "arquivo": "Super R-Type (USA).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "top-racer-j",
+      "titulo": "Top Racer (J)",
+      "sistema": "SNES",
+      "descricao": "Jogo de corrida arcade com carros velozes, pistas variadas e disputas contra adversários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Top%20Racer%20%28J%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Top%20Racer%20%28J%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Top%20Racer%20%28J%29.smc",
+      "arquivo": "Top Racer (J).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "kendo-rage",
+      "titulo": "Kendo Rage",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e plataforma com temática japonesa, combates e fases repletas de inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Kendo%20Rage%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Kendo%20Rage%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Kendo%20Rage%20%28U%29.smc",
+      "arquivo": "Kendo Rage (USA).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "aaahh-real-monsters",
+      "titulo": "AAAHH!!! Real Monsters",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada no desenho, com Ickis, Oblina e Krumm enfrentando desafios e coletando itens.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/AAAHH%21%21%21%20Real%20Monsters%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/AAAHH%21%21%21%20Real%20Monsters%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/AAAHH%21%21%21%20Real%20Monsters%20%28U%29.smc",
+      "arquivo": "AAAHH!!! Real Monsters (BR).sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "sunset-riders",
+      "titulo": "Sunset Riders",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação no estilo faroeste em que pistoleiros enfrentam bandidos e chefes em diferentes cidades.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Sunset%20Riders%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Sunset%20Riders%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Sunset%20Riders%20%28U%29.smc",
+      "arquivo": "Sunset Riders (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ronaldinho-campeonato-brasileiro-98",
+      "titulo": "Ronaldinho Campeonato Brasileiro 98",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol baseado no cenário brasileiro de 1998, com partidas e equipes voltadas ao campeonato nacional.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ronaldinho%20Campeonato%20Brasileiro%2098%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ronaldinho%20Campeonato%20Brasileiro%2098%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ronaldinho%20Campeonato%20Brasileiro%2098%20%28U%29.smc",
+      "arquivo": "Ronaldinho Campeonato Brasileiro 98 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "romancing-saga-3",
+      "titulo": "Romancing SaGa 3",
+      "sistema": "SNES",
+      "descricao": "RPG com múltiplos protagonistas, exploração livre, batalhas por turnos e diferentes caminhos para a história.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Romancing%20SaGa%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Romancing%20SaGa%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Romancing%20SaGa%203%20%28J%29%20%28V1.1%29.smc",
+      "arquivo": "Romancing SaGa 3.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "e-v-o-search-for-eden",
+      "titulo": "E.V.O. Search for Eden",
+      "sistema": "SNES",
+      "descricao": "RPG de ação e evolução em que o jogador controla uma criatura que muda suas características para sobreviver e avançar pela história.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/E.V.O.%20Search%20for%20Eden%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/E.V.O.%20Search%20for%20Eden%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/E.V.O.%20Search%20for%20Eden%20%28U%29.smc",
+      "arquivo": "E.V.O. Search for Eden (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "tecmo-secret-of-the-stars",
+      "titulo": "Tecmo Secret of the Stars",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com exploração, batalhas por turnos e uma jornada para enfrentar uma ameaça mundial.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tecmo%20Secret%20of%20the%20Stars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Tecmo%20Secret%20of%20the%20Stars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Tecmo%20Secret%20of%20the%20Stars%20%28U%29.smc",
+      "arquivo": "Tecmo Secret of the Stars (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "bishoujo-senshi-sailor-moon-r",
+      "titulo": "Bishoujo Senshi Sailor Moon R",
+      "sistema": "SNES",
+      "descricao": "Jogo baseado em Sailor Moon R, com as guerreiras enfrentando inimigos em fases de ação.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bishoujo%20Senshi%20Sailor%20Moon%20R%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Bishoujo%20Senshi%20Sailor%20Moon%20R%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Bishoujo%20Senshi%20Sailor%20Moon%20R%20%28J%29.smc",
+      "arquivo": "Bishoujo Senshi Sailor Moon R (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "time-slip",
+      "titulo": "Time Slip",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e plataforma com viagens temporais, inimigos e fases ambientadas em diferentes períodos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Time%20Slip%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Time%20Slip%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Time%20Slip%20%28U%29.smc",
+      "arquivo": "Time Slip (USA).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "pinocchio-br",
+      "titulo": "Pinocchio BR",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada em Pinóquio, com o personagem atravessando cenários e enfrentando perigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Pinocchio%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Pinocchio%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Pinocchio%20%28U%29.smc",
+      "arquivo": "Pinocchio BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ronaldinho-soccer-97",
+      "titulo": "Ronaldinho Soccer 97",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol com temática brasileira, partidas e equipes inspiradas no futebol da década de 1990.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ronaldinho%20Soccer%2097%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ronaldinho%20Soccer%2097%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ronaldinho%20Soccer%2097%20%20%28U%29.smc",
+      "arquivo": "Ronaldinho Soccer 97 (PT-BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "super-soccer-br",
+      "titulo": "Super Soccer BR",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol com partidas entre seleções e equipes, focado em jogabilidade rápida e competições.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Soccer%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Soccer%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Soccer%20%28U%29.smc",
+      "arquivo": "Super Soccer BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "battle-soccer-field-no-hasha",
+      "titulo": "Battle Soccer Field no Hasha",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol com personagens e equipes inspirados em diferentes franquias da Namco e outros universos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Battle%20Soccer%20Field%20no%20Hasha%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Battle%20Soccer%20Field%20no%20Hasha%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Battle%20Soccer%20Field%20no%20Hasha%20%28J%29.smc",
+      "arquivo": "Battle Soccer Field no Hasha (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "cool-spot",
+      "titulo": "Cool Spot",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Spot, mascote da 7 Up, que percorre fases coletando itens e enfrentando obstáculos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Cool%20Spot%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Cool%20Spot%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Cool%20Spot%20%28U%29.smc",
+      "arquivo": "Cool Spot (BR).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "u-n-squadron",
+      "titulo": "U.N. Squadron",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro horizontal em que pilotos realizam missões aéreas, escolhem aeronaves e enfrentam forças inimigas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/U.N.%20Squadron%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/U.N.%20Squadron%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/U.N.%20Squadron%20%28U%29.smc",
+      "arquivo": "U.N. Squadron (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "super-street-fighter-2-the-new-challengers-br-2",
+      "titulo": "Super Street Fighter 2 - The New Challengers, Br",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Super Street Fighter II, com novos lutadores, golpes especiais e combates de artes marciais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Street%20Fighter%202%20-%20The%20New%20Challengers%2C%20Br%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Super%20Street%20Fighter%202%20-%20The%20New%20Challengers%2C%20Br%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Super%20Street%20Fighter%20II%20-%20The%20New%20Challengers%20%28U%29.smc",
+      "arquivo": "Super Street Fighter 2 - The New Challengers, Br.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "desert-strike-br",
+      "titulo": "Desert Strike BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Desert Strike, jogo de ação em que o jogador controla um helicóptero em missões militares.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Desert%20Strike%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Desert%20Strike%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Desert%20Strike%20%28U%29.smc",
+      "arquivo": "Desert Strike BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "fire-striker",
+      "titulo": "Fire Striker",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e estratégia em que o jogador usa ataques e posicionamento para enfrentar inimigos e proteger áreas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Fire%20Striker%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Fire%20Striker%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Fire%20Striker%20%28U%29.smc",
+      "arquivo": "Fire Striker.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "marvel-super-heroes-war-of-the-gems",
+      "titulo": "Marvel Super Heroes - War of the Gems",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação da Marvel em que heróis enfrentam vilões e procuram as Joias do Infinito.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28U%29.smc",
+      "arquivo": "Marvel Super Heroes - War of the Gems (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "marvel-super-heroes-war-of-the-gems-2",
+      "titulo": "Marvel Super Heroes - War of the Gems",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação da Marvel em que heróis enfrentam vilões e procuram as Joias do Infinito.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Marvel%20Super%20Heroes%20-%20War%20of%20the%20Gems%20%28U%29.smc",
+      "arquivo": "Marvel Super Heroes - War of the Gems.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "international-super-star-soccer-deluxe-futebol-brasileiro-2007",
+      "titulo": "International Super Star Soccer Deluxe - Futebol Brasileiro 2007",
+      "sistema": "SNES",
+      "descricao": "Versão modificada de International Superstar Soccer Deluxe com temática e equipes voltadas ao futebol brasileiro.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202007%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202007%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202007%20%28U%29.smc",
+      "arquivo": "International Super Star Soccer Deluxe - Futebol Brasileiro 2007 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "international-super-star-soccer-deluxe-futebol-brasileiro-2008",
+      "titulo": "International Super Star Soccer Deluxe - Futebol Brasileiro 2008",
+      "sistema": "SNES",
+      "descricao": "Versão modificada de International Superstar Soccer Deluxe com foco em equipes e jogadores do futebol brasileiro.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202008%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202008%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/International%20Super%20Star%20Soccer%20Deluxe%20-%20Futebol%20Brasileiro%202008%20%28U%29.smc",
+      "arquivo": "International Super Star Soccer Deluxe - Futebol Brasileiro 2008 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "international-super-star-soccer-deluxe-ronaldinho-soccer-97",
+      "titulo": "International Super Star Soccer Deluxe - Ronaldinho Soccer 97",
+      "sistema": "SNES",
+      "descricao": "Versão modificada de International Superstar Soccer Deluxe com temática centrada em Ronaldinho e no futebol brasileiro.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Super%20Star%20Soccer%20Deluxe%20-%20Ronaldinho%20Soccer%2097%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/International%20Super%20Star%20Soccer%20Deluxe%20-%20Ronaldinho%20Soccer%2097%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/International%20Super%20Star%20Soccer%20Deluxe%20-%20Ronaldinho%20Soccer%2097%20%28U%29.smc",
+      "arquivo": "International Super Star Soccer Deluxe - Ronaldinho Soccer 97 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "international-super-star-soccer-deluxe-world-cup-france-98",
+      "titulo": "International Super Star Soccer Deluxe - World Cup France 98",
+      "sistema": "SNES",
+      "descricao": "Versão modificada de International Superstar Soccer Deluxe inspirada na Copa do Mundo de 1998.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Super%20Star%20Soccer%20Deluxe%20-%20World%20Cup%20France%2098%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/International%20Super%20Star%20Soccer%20Deluxe%20-%20World%20Cup%20France%2098%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/International%20Super%20Star%20Soccer%20Deluxe%20-%20World%20Cup%20France%2098%20%28U%29.smc",
+      "arquivo": "International Super Star Soccer Deluxe - World Cup France 98 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "futebol-brasileiro-96",
+      "titulo": "Futebol Brasileiro 96",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol voltado ao cenário brasileiro, com partidas e equipes da época.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Futebol%20Brasileiro%2096%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Futebol%20Brasileiro%2096%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Futebol%20Brasileiro%2096%20%28U%29.smc",
+      "arquivo": "Futebol Brasileiro 96 (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "shadow-the-proto",
+      "titulo": "Shadow, The (Proto)",
+      "sistema": "SNES",
+      "descricao": "Protótipo de um jogo de ação baseado no personagem The Shadow, preservando elementos de combate e exploração.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Shadow%2C%20The%20%28Proto%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Shadow%2C%20The%20%28Proto%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Shadow%2C%20The%20%28U%29%20%28Proto%29.smc",
+      "arquivo": "Shadow, The (USA) (Proto).sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "jetsons-the-invasion-of-the-planet-pirates",
+      "titulo": "Jetsons, The - Invasion of the Planet Pirates",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada em Os Jetsons, com George enfrentando piratas espaciais e obstáculos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Jetsons%2C%20The%20-%20Invasion%20of%20the%20Planet%20Pirates%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Jetsons%2C%20The%20-%20Invasion%20of%20the%20Planet%20Pirates%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Jetsons%2C%20The%20-%20Invasion%20of%20the%20Planet%20Pirates%20%28U%29.smc",
+      "arquivo": "Jetsons, The - Invasion of the Planet Pirates.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "brainies-the",
+      "titulo": "Brainies, The",
+      "sistema": "SNES",
+      "descricao": "Jogo de quebra-cabeça em que o jogador precisa organizar e posicionar personagens para superar os desafios das fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Brainies%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Brainies%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Brainies%2C%20The%20%28U%29.smc",
+      "arquivo": "Brainies, The.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "combatribes-the",
+      "titulo": "Combatribes, The",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up de ação em que lutadores enfrentam gangues e inimigos usando golpes corpo a corpo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Combatribes%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Combatribes%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Combatribes%2C%20The%20%28U%29.smc",
+      "arquivo": "Combatribes, The.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "tiny-toon-adventures-wild-wacky-sports",
+      "titulo": "Tiny Toon Adventures - Wild & Wacky Sports",
+      "sistema": "SNES",
+      "descricao": "Coletânea de minijogos esportivos com personagens de Tiny Toon Adventures.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tiny%20Toon%20Adventures%20-%20Wild%20%26%20Wacky%20Sports%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Tiny%20Toon%20Adventures%20-%20Wild%20%26%20Wacky%20Sports%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Tiny%20Toon%20Adventures%20-%20Wild%20%26%20Wacky%20Sports%20%28U%29.smc",
+      "arquivo": "Tiny Toon Adventures - Wild & Wacky Sports (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "clock-tower",
+      "titulo": "Clock_Tower",
+      "sistema": "SNES",
+      "descricao": "Aventura de terror e suspense baseada em exploração, investigação e fuga de ameaças dentro de ambientes perigosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Clock_Tower%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Clock_Tower%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Clock%20Tower%20%28J%29.smc",
+      "arquivo": "Clock_Tower.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "raiden-trad",
+      "titulo": "Raiden Trad",
+      "sistema": "SNES",
+      "descricao": "Jogo de tiro vertical em que uma nave enfrenta ondas de inimigos, obstáculos e grandes chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Raiden%20Trad%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Raiden%20Trad%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Raiden%20Trad%20%28U%29.smc",
+      "arquivo": "Raiden Trad.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "chrono-trigger-portugues",
+      "titulo": "Chrono Trigger (portugues)",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Chrono Trigger, RPG de viagem no tempo com personagens, exploração e batalhas por turnos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Chrono%20Trigger%20%28portugues%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Chrono%20Trigger%20%28portugues%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Chrono%20Trigger%20%28U%29.smc",
+      "arquivo": "Chrono Trigger (portugues).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "chrono-trigger",
+      "titulo": "Chrono_trigger",
+      "sistema": "SNES",
+      "descricao": "RPG de viagem no tempo em que um grupo de heróis percorre diferentes eras para impedir uma ameaça mundial.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Chrono_trigger%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Chrono_trigger%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Chrono%20Trigger%20%28U%29.smc",
+      "arquivo": "Chrono_trigger.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "goof-troop",
+      "titulo": "Goof Troop",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação em que Goofy e Max exploram ilhas, resolvem quebra-cabeças e enfrentam piratas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Goof%20Troop%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Goof%20Troop%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Goof%20Troop%20%28U%29.smc",
+      "arquivo": "Goof Troop (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "goof-troop-extreme-edition",
+      "titulo": "Goof Troop Extreme Edition",
+      "sistema": "SNES",
+      "descricao": "Versão modificada de Goof Troop, mantendo a aventura cooperativa com exploração, quebra-cabeças e inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Goof%20Troop%20Extreme%20Edition%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Goof%20Troop%20Extreme%20Edition%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Goof%20Troop%20Extreme%20Edition%20%28U%29.smc",
+      "arquivo": "Goof Troop Extreme Edition (BR).sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "captain-tsubasa-v-hasha-no-shougou-campione",
+      "titulo": "Captain Tsubasa V - Hasha no Shougou Campione",
+      "sistema": "SNES",
+      "descricao": "Jogo de futebol baseado em Captain Tsubasa, combinando partidas com elementos de RPG e cenas narrativas.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Captain%20Tsubasa%20V%20-%20Hasha%20no%20Shougou%20Campione%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Captain%20Tsubasa%20V%20-%20Hasha%20no%20Shougou%20Campione%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Captain%20Tsubasa%20V%20-%20Hasha%20no%20Shougou%20Canpione%20%28J%29.smc",
+      "arquivo": "Captain Tsubasa V - Hasha no Shougou Campione.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "looney-tunes-b-ball",
+      "titulo": "Looney Tunes B-Ball",
+      "sistema": "SNES",
+      "descricao": "Jogo de basquete arcade com personagens dos Looney Tunes disputando partidas cheias de movimentos especiais.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Looney%20Tunes%20B-Ball%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Looney%20Tunes%20B-Ball%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Looney%20Tunes%20B-Ball%20%28U%29.smc",
+      "arquivo": "Looney Tunes B-Ball (USA).sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "hyper-v-ball-br",
+      "titulo": "Hyper V-Ball BR",
+      "sistema": "SNES",
+      "descricao": "Jogo de vôlei arcade com partidas rápidas e diferentes equipes e modos de jogo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Hyper%20V-Ball%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Hyper%20V-Ball%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Hyper%20V-Ball%20%28U%29.smc",
+      "arquivo": "Hyper V-Ball BR.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "lost-vikings",
+      "titulo": "Lost Vikings",
+      "sistema": "SNES",
+      "descricao": "Aventura de quebra-cabeças em que três vikings com habilidades diferentes precisam cooperar para atravessar fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Lost%20Vikings%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Lost%20Vikings%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Lost%20Vikings%20%28U%29.smc",
+      "arquivo": "Lost Vikings (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "lost-vikings-2",
+      "titulo": "Lost Vikings 2",
+      "sistema": "SNES",
+      "descricao": "Continuação da aventura dos vikings, com novos personagens, habilidades e desafios de quebra-cabeça.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Lost%20Vikings%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Lost%20Vikings%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Lost%20Vikings%202%20%28U%29.smc",
+      "arquivo": "Lost Vikings 2 (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "metal-warriors",
+      "titulo": "Metal Warriors",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação com mechas em que o jogador enfrenta forças inimigas usando diferentes armas e habilidades.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Metal%20Warriors%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Metal%20Warriors%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Metal%20Warriors%20%28U%29.smc",
+      "arquivo": "Metal Warriors.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "gundam-wing-endless-duel",
+      "titulo": "Gundam Wing - Endless Duel",
+      "sistema": "SNES",
+      "descricao": "Jogo de luta com Mobile Suits de Gundam Wing, cada um com golpes e características próprias.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Gundam%20Wing%20-%20Endless%20Duel%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Gundam%20Wing%20-%20Endless%20Duel%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Gundam%20Wing%20-%20Endless%20Duel%20%28U%29.smc",
+      "arquivo": "Gundam Wing - Endless Duel (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "bobby-s-world",
+      "titulo": "Bobby's World",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma baseada no desenho Bobby's World, com Bobby atravessando situações e cenários inspirados na série.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bobby%27s%20World%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Bobby%27s%20World%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Bobby%27s%20World%20%28U%29.smc",
+      "arquivo": "Bobby's World (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "tom-and-jerry",
+      "titulo": "Tom and Jerry",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e plataforma baseado na rivalidade entre Tom e Jerry, com perseguições, obstáculos e inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tom%20and%20Jerry%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Tom%20and%20Jerry%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Tom%20and%20Jerry%20%28U%29.smc",
+      "arquivo": "Tom and Jerry.sfc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "death-and-return-of-superman-the",
+      "titulo": "Death and Return of Superman The",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado nos quadrinhos, acompanhando Superman e outros personagens em confrontos contra inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Death%20and%20Return%20of%20Superman%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Death%20and%20Return%20of%20Superman%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Death%20and%20Return%20of%20Superman%20The%20%28U%29.smc",
+      "arquivo": "Death and Return of Superman The.sfc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "ronaldinho-futebol-brasileiro-2011-unl",
+      "titulo": "Ronaldinho futebol brasileiro 2011(unl)",
+      "sistema": "SNES",
+      "descricao": "Jogo não oficial de futebol com temática brasileira e elenco inspirado na época de Ronaldinho.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Ronaldinho%20futebol%20brasileiro%202011%28unl%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Ronaldinho%20futebol%20brasileiro%202011%28unl%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Ronaldinho%20futebol%20brasileiro%202011%28unl%29%20%28U%29.smc",
+      "arquivo": "Ronaldinho futebol brasileiro 2011(unl).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "bubsy-in-claws-encounters-of-the-furred-kind",
+      "titulo": "Bubsy in Claws Encounters of the Furred Kind",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma estrelada por Bubsy, que enfrenta inimigos e atravessa fases para proteger seus novelos de lã.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Bubsy%20in%20Claws%20Encounters%20of%20the%20Furred%20Kind%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Bubsy%20in%20Claws%20Encounters%20of%20the%20Furred%20Kind%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Bubsy%20in%20Claws%20Encounters%20of%20the%20Furred%20Kind%20%28U%29.smc",
+      "arquivo": "Bubsy in Claws Encounters of the Furred Kind (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "panic-in-nakayoshi-world",
+      "titulo": "Panic in Nakayoshi World",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação com personagens de diferentes séries japonesas, reunidos em uma jornada cheia de inimigos e desafios.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Panic%20in%20Nakayoshi%20World%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Panic%20in%20Nakayoshi%20World%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Panic%20in%20Nakayoshi%20World%20%28J%29.smc",
+      "arquivo": "Panic in Nakayoshi World (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "x-men-mutant-apocalypse",
+      "titulo": "X-Men - Mutant Apocalypse",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado nos X-Men, com diferentes heróis enfrentando vilões e perigos em várias fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/X-Men%20-%20Mutant%20Apocalypse%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/X-Men%20-%20Mutant%20Apocalypse%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/X-Men%20-%20Mutant%20Apocalypse%20%28U%29.smc",
+      "arquivo": "X-Men - Mutant Apocalypse.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "hamelin-no-violin-hiki",
+      "titulo": "Hamelin no Violin Hiki",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura baseado em Hamelin no Violin Hiki, combinando exploração, narrativa e combates.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Hamelin%20no%20Violin%20Hiki%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Hamelin%20no%20Violin%20Hiki%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Hamelin%20no%20Violin%20Hiki%20%28J%29.smc",
+      "arquivo": "Hamelin no Violin Hiki (BR).smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "hamelin-no-violin-hiki-j",
+      "titulo": "Hamelin no Violin Hiki (J)",
+      "sistema": "SNES",
+      "descricao": "RPG de aventura japonês com exploração, narrativa e batalhas em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Hamelin%20no%20Violin%20Hiki%20%28J%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Hamelin%20no%20Violin%20Hiki%20%28J%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Hamelin%20no%20Violin%20Hiki%20%28J%29.smc",
+      "arquivo": "Hamelin no Violin Hiki (J) [T+Bra101_Hexagon].smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "pirates-of-dark-water-the",
+      "titulo": "Pirates of Dark Water, The",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação baseada na série The Pirates of Dark Water, com combate e exploração em um mundo de fantasia.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Pirates%20of%20Dark%20Water%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Pirates%20of%20Dark%20Water%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Pirates%20of%20Dark%20Water%2C%20The%20%28U%29.smc",
+      "arquivo": "Pirates of Dark Water, The.smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "adventures-of-dr-franken-the",
+      "titulo": "Adventures of Dr. Franken, The",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que Dr. Franken atravessa diferentes ambientes enfrentando criaturas, obstáculos e inimigos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Adventures%20of%20Dr.%20Franken%2C%20The%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Adventures%20of%20Dr.%20Franken%2C%20The%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Adventures%20of%20Dr.%20Franken%2C%20The%20%28U%29.smc",
+      "arquivo": "Adventures of Dr. Franken, The.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "king-of-dragons",
+      "titulo": "King of Dragons",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up de fantasia com guerreiros que enfrentam monstros, criaturas mágicas e chefes em diferentes fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/King%20of%20Dragons%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/King%20of%20Dragons%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/King%20of%20Dragons%20%28U%29.smc",
+      "arquivo": "King of Dragons.sfc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "breath-of-fire",
+      "titulo": "Breath of Fire",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia que acompanha Ryu e seus companheiros em uma jornada marcada por batalhas, magia e exploração.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Breath%20of%20Fire%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Breath%20of%20Fire%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Breath%20of%20Fire%20%28U%29.smc",
+      "arquivo": "Breath of Fire (BR).smc",
+      "tamanho": "1.5 MB"
+    },
+    {
+      "id": "breath-of-fire-2",
+      "titulo": "Breath of Fire 2",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com exploração, batalhas por turnos e uma história envolvendo Ryu e uma ameaça sobrenatural.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Breath%20of%20Fire%202%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Breath%20of%20Fire%202%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Breath%20of%20Fire%202%20%28U%29.smc",
+      "arquivo": "Breath of Fire 2 (BR).smc",
+      "tamanho": "3 MB"
+    },
+    {
+      "id": "soldiers-of-fortune",
+      "titulo": "Soldiers of Fortune",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação e plataforma em que mercenários enfrentam inimigos armados em diferentes cenários.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Soldiers%20of%20Fortune%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Soldiers%20of%20Fortune%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Soldiers%20of%20Fortune%20%28U%29.smc",
+      "arquivo": "Soldiers of Fortune (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "illusion-of-gaia",
+      "titulo": "Illusion of Gaia",
+      "sistema": "SNES",
+      "descricao": "RPG de ação e aventura em que Will viaja por diferentes regiões, enfrenta criaturas e descobre mistérios ligados ao mundo.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Illusion%20of%20Gaia%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Illusion%20of%20Gaia%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Illusion%20of%20Gaia%20%28U%29.smc",
+      "arquivo": "Illusion of Gaia (BR).smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "secret-of-mana-portugues",
+      "titulo": "Secret of Mana (portugues)",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Secret of Mana, RPG de ação com exploração, magia, armas e combates em tempo real.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Secret%20of%20Mana%20%28portugues%29%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Secret%20of%20Mana%20%28portugues%29%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Secret%20of%20Mana%20%28U%29.smc",
+      "arquivo": "Secret of Mana (portugues).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "prince-of-persia-1-br",
+      "titulo": "Prince of Persia 1 BR",
+      "sistema": "SNES",
+      "descricao": "Versão em português de Prince of Persia, aventura de plataforma baseada em movimentos precisos, armadilhas e combates.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Prince%20of%20Persia%201%20BR%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Prince%20of%20Persia%201%20BR%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Prince%20of%20Persia%20%28U%29.smc",
+      "arquivo": "Prince of Persia 1 BR.smc",
+      "tamanho": "1 MB"
+    },
+    {
+      "id": "prince-of-persia-2-the-shadow-the-flame",
+      "titulo": "Prince of Persia 2 - The Shadow & The Flame",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma em que o príncipe enfrenta inimigos e armadilhas enquanto busca recuperar sua identidade e seu reino.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Prince%20of%20Persia%202%20-%20The%20Shadow%20%26%20The%20Flame%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Prince%20of%20Persia%202%20-%20The%20Shadow%20%26%20The%20Flame%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Prince%20of%20Persia%202%20-%20The%20Shadow%20%26%20The%20Flame%20%28U%29.smc",
+      "arquivo": "Prince of Persia 2 - The Shadow & The Flame (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "tales-of-phantasia",
+      "titulo": "Tales of Phantasia",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com exploração, narrativa e sistema de batalha em tempo real durante uma jornada contra uma ameaça poderosa.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Tales%20of%20Phantasia%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Tales%20of%20Phantasia%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Tales%20of%20Phantasia%20%28U%29.smc",
+      "arquivo": "Tales of Phantasia (BR).smc",
+      "tamanho": "6 MB"
+    },
+    {
+      "id": "legend-of-zelda-the-a-link-to-the-past",
+      "titulo": "Legend of Zelda, The - A Link to the Past",
+      "sistema": "SNES",
+      "descricao": "Aventura de ação e exploração em que Link percorre dois mundos, resolve masmorras e enfrenta Ganon.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28U%29.smc",
+      "arquivo": "Legend of Zelda, The - A Link to the Past (USA).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "knights-of-the-round",
+      "titulo": "Knights of the Round",
+      "sistema": "SNES",
+      "descricao": "Beat 'em up de fantasia inspirado nas lendas arturianas, com cavaleiros enfrentando inimigos e chefes.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Knights%20of%20the%20Round%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Knights%20of%20the%20Round%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Knights%20of%20the%20Round%20%28U%29.smc",
+      "arquivo": "Knights of the Round.smc",
+      "tamanho": "4 MB"
+    },
+    {
+      "id": "secret-of-the-stars",
+      "titulo": "Secret of the Stars",
+      "sistema": "SNES",
+      "descricao": "RPG de fantasia com exploração, batalhas por turnos e uma jornada para reunir heróis e enfrentar uma grande ameaça.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Secret%20of%20the%20Stars%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Secret%20of%20the%20Stars%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Secret%20of%20the%20Stars%20%28U%29.smc",
+      "arquivo": "Secret of the Stars (BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "sonic-the-hedgehog",
+      "titulo": "Sonic the Hedgehog",
+      "sistema": "SNES",
+      "descricao": "Jogo de plataforma de alta velocidade em que Sonic atravessa fases, coleta anéis e enfrenta o Dr. Robotnik.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Sonic%20the%20Hedgehog%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Sonic%20the%20Hedgehog%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Sonic%20the%20Hedgehog%20%28Unl%29.smc",
+      "arquivo": "Sonic the Hedgehog.smc",
+      "tamanho": "512 KB"
+    },
+    {
+      "id": "mickey-to-donald-magical-adventure-3",
+      "titulo": "Mickey to Donald - Magical Adventure 3",
+      "sistema": "SNES",
+      "descricao": "Aventura de plataforma com Mickey e Donald, que usam diferentes habilidades e poderes para superar fases.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mickey%20to%20Donald%20-%20Magical%20Adventure%203%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Mickey%20to%20Donald%20-%20Magical%20Adventure%203%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Mickey%20to%20Donald%20-%20Magical%20Adventure%203%20%20%28U%29.smc",
+      "arquivo": "Mickey to Donald - Magical Adventure 3 (PT-BR).smc",
+      "tamanho": "2 MB"
+    },
+    {
+      "id": "alien-vs-predator",
+      "titulo": "Alien vs. Predator",
+      "sistema": "SNES",
+      "descricao": "Jogo de ação baseado no confronto entre Aliens e Predadores, com combates e exploração em ambientes perigosos.",
+      "capa": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Alien%20vs.%20Predator%20%28USA%29.png",
+      "fotos": [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Snaps/Alien%20vs.%20Predator%20%28USA%29.png"
+      ],
+      "url": "https://archive.org/download/roms-snes-smc-3126-jogosj/Alien%20vs.%20Predator%20%28U%29.smc",
+      "arquivo": "Alien vs. Predator (U) [T+Por].smc",
+      "tamanho": "2 MB"
+    }
+  ]
+}
